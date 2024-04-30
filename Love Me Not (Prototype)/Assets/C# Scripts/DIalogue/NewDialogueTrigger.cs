@@ -24,7 +24,7 @@ public class NewDialogueTrigger : MonoBehaviour
         if (playerInRange && !NewDialogueManager.GetInstance().dialogueIsPlaying)
         {
             visualCue.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetMouseButtonDown(0))
             {
                 NewDialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
