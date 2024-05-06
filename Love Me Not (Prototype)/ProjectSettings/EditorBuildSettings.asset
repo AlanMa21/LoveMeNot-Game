@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 11220710e0c545a428fdf92024c28656
+  - enabled: 1
+    path: Assets/Scenes/Love Me Not Main.unity
+    guid: 6bef3bb8fd8d80547b69d5dd06f22315
+  - enabled: 1
+    path: Assets/Scenes/Prologue_Scene.unity
+    guid: 97cca3c039da3754dad2dba5bcba4207
+  - enabled: 1
+    path: Assets/Scenes/Bedroom_Scene.unity
+    guid: 72e6e64feb2588845b95c34f7400e9da
   m_configObjects: {}
