@@ -36,14 +36,8 @@ public class BreadMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(NewDialogueManager.GetInstance().dialogueIsPlaying)
-        {
-            return;
-        }
-
         if (movementInput != Vector2.zero)
             {
-                
                 bool success = TryMove(movementInput);
 
                 if (!success)
