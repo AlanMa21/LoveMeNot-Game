@@ -1,3 +1,5 @@
+EXTERNAL activateFairy()
+
 -> AfterSunQuestionOne
 
 === AfterSunQuestionOne ===
@@ -8,6 +10,7 @@
 "Ah, finally!"
 
 //MC (Pixels) jumps onto the bed, maybe a sleeping sprite?
+~activateFairy()
 
 "Oh sleep, how I desire you and your everlasting comfort."
 "Cure the pain in my feet, bring me forever slumber!"
