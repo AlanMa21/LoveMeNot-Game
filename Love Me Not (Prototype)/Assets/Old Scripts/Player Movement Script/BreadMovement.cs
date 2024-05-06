@@ -19,10 +19,13 @@ public class BreadMovement : MonoBehaviour
 
    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
+   public bool canMove;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        canMove = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -36,7 +39,15 @@ public class BreadMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (movementInput != Vector2.zero)
+        if(NewDialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
+        
+
+        if (canMove)
+        {
+            if (movementInput != Vector2.zero)
             {
                 bool success = TryMove(movementInput);
 
@@ -68,6 +79,7 @@ public class BreadMovement : MonoBehaviour
                 spriteRenderer.flipX = false;
 
             }
+        } 
 
 
 

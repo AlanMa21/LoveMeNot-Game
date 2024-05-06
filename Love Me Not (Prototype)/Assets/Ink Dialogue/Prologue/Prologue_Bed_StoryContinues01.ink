@@ -1,4 +1,4 @@
-EXTERNAL activateFairy()
+//EXTERNAL activateFairy()
 
 -> AfterSunQuestionOne
 
@@ -10,7 +10,7 @@ EXTERNAL activateFairy()
 "Ah, finally!"
 
 //MC (Pixels) jumps onto the bed, maybe a sleeping sprite?
-~activateFairy()
+//~activateFairy()
 
 "Oh sleep, how I desire you and your everlasting comfort."
 "Cure the pain in my feet, bring me forever slumber!"

@@ -19,23 +19,37 @@ public class NewDialogueTrigger : MonoBehaviour
     [SerializeField] private TextAsset deniedInkJSON;
 
     private bool playerInRange;
+    public int interactionCount;
+    public bool isPassiveDialogue;
 
-    [SerializeField]
-    private int interactionCount;
+    public NewDialogueManager dM_Backup;
+    public BreadMovement player;
+
+    [SerializeField] private bool NonNarrativeFunction;
 
     private void Awake()
     {
         playerInRange = false;
-        visualCue.SetActive(false);
+
+        if(visualCue!=null)
+        {
+            visualCue.SetActive(false);
+        }
 
         interactionCount = 0;
+
+        if (isPassiveDialogue)
+        {
+            StartCoroutine(StartPassiveDialogue());
+            Debug.Log("entering passive dialogue");
+        }
 
         
     }
     
     private void Update()
     {
-        if (playerInRange && !NewDialogueManager.GetInstance().dialogueIsPlaying)
+        if (playerInRange && !NewDialogueManager.GetInstance().dialogueIsPlaying&&visualCue!=false)
         {
             visualCue.SetActive(true);
             if (Input.GetMouseButtonDown(0))
@@ -82,9 +96,27 @@ public class NewDialogueTrigger : MonoBehaviour
         }
         else
         {
-            visualCue.SetActive(false);
+            if (visualCue!=false)
+                visualCue.SetActive(false);
         }
     }
+
+    IEnumerator StartPassiveDialogue()
+    {
+        if (player!=false)
+        {
+            player.canMove=false;
+        }
+        yield return new WaitForSeconds(1);
+
+        if (player!=false)
+        {
+            player.canMove=true;
+        }
+        EnterDialogue();
+
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -105,6 +137,24 @@ public class NewDialogueTrigger : MonoBehaviour
     private void EnterDialogue()
     {
         interactionCount++;
-        NewDialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+        if (NonNarrativeFunction)
+        {
+            // this is a bit brute forced but can be updated later
+            if (gameObject.GetComponent<SceneTransition>()!= null)
+            {
+                gameObject.GetComponent<SceneTransition>().SwitchScene();
+            }
+        }
+        else
+        {            
+            NewDialogueManager dM = NewDialogueManager.GetInstance();
+            if (dM == null)
+            {
+                dM = dM_Backup;
+            }
+
+            dM.EnterDialogueMode(inkJSON);
+        }
+        
     }
 }

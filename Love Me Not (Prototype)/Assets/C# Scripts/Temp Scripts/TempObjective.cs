@@ -46,7 +46,20 @@ public class TempObjective : MonoBehaviour
         
         foreach(GameObject g in QuestRequirements)
         {
+            if (g.GetComponentInChildren<NewDialogueTrigger>() != null)
+            {
+                NewDialogueTrigger dT = g.GetComponentInChildren<NewDialogueTrigger>();
+                if (dT.interactionCount > 0)
+                {
+                    numberOfCompleted ++;
 
+                Debug.Log(g.name + " has been interacted with. yippee! total count is: " + numberOfCompleted);
+                }
+            }
+            
+
+
+            /*
             TempInteractable tI = g.GetComponent<TempInteractable>();
 
             if (tI.hasBeenActivated)
@@ -55,18 +68,14 @@ public class TempObjective : MonoBehaviour
 
                 Debug.Log(tI.gameObject.name + " has been interacted with. yippee! total count is: " + numberOfCompleted);
             }
+            */
         }
 
         if (numberOfCompleted >= numberRequired)
         {
             Debug.Log("interaction allowed");
 
-            /*
-            if(activateOnComplete!=null)
-                {
-                    activateOnComplete.SetActive(true);
-                }
-            */
+            spawnFairy();
 
             return true;
 
