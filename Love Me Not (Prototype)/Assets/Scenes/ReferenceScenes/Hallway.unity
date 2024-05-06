@@ -9042,6 +9042,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -1.48
       objectReference: {fileID: 0}
+    - target: {fileID: 6085732754295286751, guid: c7ddff804e3274049bf213855e45e326, type: 3}
+      propertyPath: inkJSON
+      value: 
+      objectReference: {fileID: 4900000, guid: 01537d68a1941ba46b9e352c05c72e6b, type: 3}
     - target: {fileID: 6085732754358802496, guid: c7ddff804e3274049bf213855e45e326, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -9292,6 +9296,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1338644048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338644050}
+  - component: {fileID: 1338644049}
+  m_Layer: 0
+  m_Name: passive dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1338644049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338644048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8e75aac78f60e418a42792a8833738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualCue: {fileID: 0}
+  inkJSON: {fileID: 4900000, guid: 2890b96c061b34d42838c4150b7cf14f, type: 3}
+  deniedInkJSON: {fileID: 0}
+  interactionCount: 0
+  isPassiveDialogue: 1
+  dM_Backup: {fileID: 0}
+  player: {fileID: 0}
+  NonNarrativeFunction: 0
+--- !u!4 &1338644050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338644048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.131437, y: 3.7034614, z: -0.04097149}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489461680
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,6 +9805,9 @@ MonoBehaviour:
   inkJSON: {fileID: 4900000, guid: 149739d9ffd423342850fec0ac5ae6ff, type: 3}
   deniedInkJSON: {fileID: 0}
   interactionCount: 0
+  isPassiveDialogue: 0
+  dM_Backup: {fileID: 0}
+  player: {fileID: 0}
   NonNarrativeFunction: 1
 --- !u!61 &6085732755022207158
 BoxCollider2D:
@@ -9803,7 +9862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbdbcc7861dbde0459334431d98a6fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 1
+  sceneBuildIndex: 5
   checkForComplete: 0
 --- !u!212 &6085732755168047593
 SpriteRenderer:

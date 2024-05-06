@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -611,7 +611,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Furniture__14: -1904345277
+      Furniture__2: -1374682976
       Furniture__0: -649289401
       Furniture__13: -1422085903
       Furniture__22: -306166800
@@ -632,8 +632,8 @@ TextureImporter:
       Furniture__1: -328175928
       Furniture__16: -1824298542
       Furniture__21: 1105729722
+      Furniture__14: -1904345277
       Furniture__4: 842576982
-      Furniture__2: -1374682976
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

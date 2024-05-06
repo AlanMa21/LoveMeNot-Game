@@ -42,13 +42,13 @@ public class UIManager : MonoBehaviour
 
    public void UpdateCoinUI(int coins, int victoryCondition)
    {
-     txtCoins.text = "Coins:" + coins + "/" + victoryCondition;
+     txtCoins.text = "Keys:" + coins + "/" + victoryCondition;
    }
 
    public void ShowVictoryCondition(int _coins, int _victoryCondition)
    {
      victoryCondition.SetActive(true);
-     txtVictoryCondition.text = "You Need" + (_victoryCondition - _coins) + "More Coins";
+     txtVictoryCondition.text = "You Need" + (_victoryCondition - _coins) + "More Keys";
    }
 
    public void HideVictoryCondition()

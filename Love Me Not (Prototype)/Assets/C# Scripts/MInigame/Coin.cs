@@ -11,6 +11,7 @@ public class Coin : Collectable
    {
       GameManager.MyInstance.AddCoins(coinValue);
       Destroy(this.gameObject);
+      
 
    }
 }
