@@ -7,7 +7,7 @@ using TMPro;
 public class CountDownTime : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 10f;
+    float startingTime = 20f;
 
     public GameObject failScene;
 

@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ReferenceScenes/Classroom.unity
     guid: 533ea1a7f3d91ce48a3cff4a9c5bca85
+  - enabled: 1
+    path: Assets/Scenes/ReferenceScenes/Mini Game.unity
+    guid: acfcb6a3b4c615540bea7604ed1c9933
+  - enabled: 1
+    path: Assets/Scenes/ReferenceScenes/WinScene.unity
+    guid: 841106865a69e5845bc9c41cacd766b2
+  - enabled: 1
+    path: Assets/Scenes/ReferenceScenes/LossScene.unity
+    guid: a43f4c7488dd12440a5d8e7f0d31a22f
   m_configObjects: {}
