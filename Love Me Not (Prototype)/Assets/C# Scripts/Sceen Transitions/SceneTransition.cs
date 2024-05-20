@@ -7,6 +7,10 @@ public class SceneTransition : MonoBehaviour
 {
    public int sceneBuildIndex;
    public bool checkForComplete;
+   
+   public Animator transition;
+
+   public float transitionTime = 1f;
 
    private void OnTriggerEnter2D(Collider2D other)
    {
@@ -38,5 +42,18 @@ public class SceneTransition : MonoBehaviour
    {
       print("Switching Scene to " + sceneBuildIndex);
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+   }
+
+   IEnumerator SceneAnimation(int sceneBuildIndex)
+   {
+       transition.SetTrigger("Start");
+
+       yield return new WaitForSeconds(1);
+
+       SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+
+       
+
+
    }
 }

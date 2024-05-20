@@ -6,6 +6,6 @@ public class LoadScene : MonoBehaviour
 {
    public void Lost()
    {
-      SceneManager.LoadSceneAsync(8);
+      SceneManager.LoadSceneAsync(7);
    }
 }
