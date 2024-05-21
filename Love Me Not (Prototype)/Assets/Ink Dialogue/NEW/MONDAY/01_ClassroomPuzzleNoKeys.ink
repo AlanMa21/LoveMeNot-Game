@@ -2,5 +2,5 @@
 
 === ClassroomPuzzleNoKeys ===
 BREAD: Nothing here.
-BREAD: Maybe if I look around more I will find something...
+BREAD: If I look around more, I will find something...
 -> END

@@ -280,6 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39565a3bf12a51b49aefbe4f5c04a97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingTime: 20
   failScene: {fileID: 430858565}
   countdownTimer: {fileID: 972650554}
 --- !u!114 &36876919
@@ -425,6 +426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneBuildIndex: 7
   checkForComplete: 1
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!114 &71391726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -813,6 +816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneBuildIndex: 0
   checkForComplete: 0
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!114 &203735555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1895,6 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39565a3bf12a51b49aefbe4f5c04a97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingTime: 30
   failScene: {fileID: 35937710}
   countdownTimer: {fileID: 1272235710}
 --- !u!114 &482973202
@@ -3144,9 +3150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '20
-
-'
+  m_text: 30
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3227,6 +3231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39565a3bf12a51b49aefbe4f5c04a97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingTime: 20
   failScene: {fileID: 0}
   countdownTimer: {fileID: 0}
 --- !u!222 &1272235712

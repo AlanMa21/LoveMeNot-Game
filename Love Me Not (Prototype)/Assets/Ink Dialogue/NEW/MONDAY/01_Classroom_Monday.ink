@@ -1,7 +1,7 @@
 -> ClassroomDoorMonday
 
 === ClassroomDoorMonday
-//IF PLAYER INTERACTS WITH CLASSROOM DOOR
+//IF THE PLAYER INTERACTS WITH THE CLASSROOM DOOR
 BREAD: (Tired) "Groan."
 BREAD: Here we go.
 //FADES TO BLACK
