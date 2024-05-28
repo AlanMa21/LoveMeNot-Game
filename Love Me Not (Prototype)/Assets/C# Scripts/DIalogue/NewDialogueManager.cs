@@ -21,13 +21,25 @@ public class NewDialogueManager : MonoBehaviour
     public bool dialogueIsPlaying { get; private set;}
     private static NewDialogueManager instance;
 
+    [SerializeField]
+    private bool isMultiChoice;
+
+    [SerializeField]
+    private InkExternalFunctions externalFunctions;
+
     private void Awake()
     {
+        isMultiChoice = false;
         if (instance != null)
         {
             Debug.LogWarning("Found more than one New Dialogue Manager in the scene");
         }
         instance = this;
+
+        if(gameObject.GetComponent<InkExternalFunctions>()!=null)
+        {
+            externalFunctions = gameObject.GetComponent<InkExternalFunctions>();
+        }
     }
 
     public static NewDialogueManager GetInstance()
@@ -60,7 +72,21 @@ public class NewDialogueManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-           ContinueStory();
+            List<Choice> currentChoices = currentStory.currentChoices;
+
+            Debug.Log(currentChoices.Count);
+
+            if (currentChoices.Count > 1)
+            {
+                isMultiChoice = true;
+            }
+            else
+            {
+                isMultiChoice = false;
+                ContinueStory();
+            }
+            
+            //ContinueStory();
         }
     }
 
@@ -68,6 +94,12 @@ public class NewDialogueManager : MonoBehaviour
     {
         
         currentStory = new Story(inkJSON.text);
+
+        if (externalFunctions!=null)
+        {
+            externalFunctions.Bind(currentStory);
+        }
+        
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
@@ -88,10 +120,21 @@ public class NewDialogueManager : MonoBehaviour
         
         if(currentStory.canContinue)
         {
-            dialogueText.text = currentStory.Continue();
+            if(isMultiChoice)
+            {
+                DisplayChoices();
+            }
+            else
+            {
+                dialogueText.text = currentStory.Continue();
 
-            DisplayChoices();
+                DisplayChoices();
+            }
+            
         }
+
+
+
         else
         {
            StartCoroutine (ExitDialogueMode());

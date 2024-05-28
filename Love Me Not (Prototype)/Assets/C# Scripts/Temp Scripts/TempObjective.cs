@@ -34,7 +34,7 @@ public class TempObjective : MonoBehaviour
     {
         myStory.BindExternalFunction ("activateFairy", () => 
         { 
-            spawnFairy();
+            toggleFairy();
 
         });
 
@@ -75,7 +75,7 @@ public class TempObjective : MonoBehaviour
         {
             Debug.Log("interaction allowed");
 
-            spawnFairy();
+            //toggleFairy();
 
             return true;
 
@@ -89,11 +89,18 @@ public class TempObjective : MonoBehaviour
         }
     }
 
-    public void spawnFairy()
+    public void toggleFairy()
     {
         if (activateOnComplete!= null)
         {
-            activateOnComplete.SetActive(true);
+            if(activateOnComplete.activeInHierarchy == false)
+            {
+                activateOnComplete.SetActive(true);
+            }
+            else
+            {
+                activateOnComplete.SetActive(false);
+            }
         }
         
     }

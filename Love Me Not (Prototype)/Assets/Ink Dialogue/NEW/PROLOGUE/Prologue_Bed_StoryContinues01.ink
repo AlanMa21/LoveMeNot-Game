@@ -1,3 +1,6 @@
+EXTERNAL loadNextLevel(buildIndex)
+EXTERNAL toggleFairy()
+
 -> AfterSunQuestionOne
 
 === AfterSunQuestionOne ===
@@ -13,6 +16,7 @@ MC: "Cure the pain in my feet; bring me forever slumber!"
 MC: "Make me forget this tragic reality I live within..."
 
 UNKNOWN: "What a pathetic puny human!"
+~ toggleFairy()
 
 //MC (Pixels) jumps with a shake effect/animation.
 
@@ -341,6 +345,8 @@ KAREN FAIRY: (Mockery) "It's your life, darling."
 KAREN FAIRY: "Just know that the power of the gift will lead you towards your perfect future."
 KAREN FAIRY: (Strict) "Now, I must go. You have wasted plenty of my time already, and I am a busy Fairy."
 KAREN FAIRY: "I'll see you again soon, so don't fuck this up."
+~ toggleFairy()
+
 //Magic Fairy dust rises where KAREN FAIRY stands, engulfing her within it before disappearing inside the dust and the magic itself. 5 second silence before bringing dialogue back up.
 
 BREAD: (Neutral) ...
@@ -350,4 +356,6 @@ BREAD: Yeah, that must be it.
 BREAD: ...
 BREAD: I should go back to bed just incase.
 //Exit dialogue, enable player movement.
+~ loadNextLevel(2)
+
 -> END
