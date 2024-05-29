@@ -1688,6 +1688,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8643591682848368848, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643591682848368848, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.9006288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643591682848368848, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.47419012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643591682848368848, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643591682848368848, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4293294567
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e853f352650a0442b79f9a1052f1ef7, type: 3}
@@ -1841,7 +1861,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 719735078, guid: 3ef4de46afcafb24ab6b1bc186139dc4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3159,8 +3179,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4290314495
+  m_fontColor: {r: 1, g: 0, b: 0.7260461, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3231,7 +3251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39565a3bf12a51b49aefbe4f5c04a97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 20
+  startingTime: 30
   failScene: {fileID: 0}
   countdownTimer: {fileID: 0}
 --- !u!222 &1272235712
