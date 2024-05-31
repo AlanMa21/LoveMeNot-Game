@@ -39,6 +39,8 @@ public class TempObjective : MonoBehaviour
         });
 
         numberRequired = QuestRequirements.Count;
+
+
     }
 
     public bool AttemptCompletion()
@@ -103,5 +105,7 @@ public class TempObjective : MonoBehaviour
             }
         }
         
+        
     }
+
 }

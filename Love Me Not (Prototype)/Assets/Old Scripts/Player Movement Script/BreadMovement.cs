@@ -8,6 +8,7 @@ public class BreadMovement : MonoBehaviour
    
    public float moveSpeed = 1f;
 
+
    public float collisionOffset = 0.05f;
    public ContactFilter2D movementFilter; 
    
@@ -29,12 +30,14 @@ public class BreadMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
@@ -54,7 +57,6 @@ public class BreadMovement : MonoBehaviour
                 if (!success)
                 {
                     success = TryMove(new Vector2(movementInput.x, 0));
-
 
                 }
 
@@ -103,7 +105,7 @@ public class BreadMovement : MonoBehaviour
 
             } else
                 {
-                    return true;
+                    return false;
                 }
 
         
