@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -50,6 +51,29 @@ public class BreadMovement : MonoBehaviour
 
         if (canMove)
         {
+            if (Input.GetKey(KeyCode.W))
+            {
+                SetDirection("dirIsUp");
+                //Forward
+                //animator.SetBool("dirIsUp", true);
+            }
+            if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            {
+                SetDirection("dirIsSide");
+                //Sideways
+                //animator.SetBool("dirIsSide", true);
+            }
+            
+            if(Input.GetKey(KeyCode.S))
+            {
+                SetDirection("dirIsDown");
+                //Back
+                //animator.SetBool("dirIsDown", true);
+            }
+
+
+
+
             if (movementInput != Vector2.zero)
             {
                 bool success = TryMove(movementInput);
@@ -66,6 +90,7 @@ public class BreadMovement : MonoBehaviour
                 }
 
                 animator.SetBool("isMoving", success);
+                
             }
             else
             {
@@ -81,6 +106,12 @@ public class BreadMovement : MonoBehaviour
                 spriteRenderer.flipX = false;
 
             }
+
+             if (movementInput.y < 0)
+             {
+                
+             }
+             
         } 
 
 
@@ -121,5 +152,12 @@ public class BreadMovement : MonoBehaviour
        // animator.SetTrigger("swordAttack");
     //}
 
+    void SetDirection(string dirName)
+    {
+        animator.SetBool("dirIsUp", false);
+        animator.SetBool("dirIsSide", false);
+        animator.SetBool("dirIsDown", false);
 
+        animator.SetBool(dirName, true);
+    }
 }
