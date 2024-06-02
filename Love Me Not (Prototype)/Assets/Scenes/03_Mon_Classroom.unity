@@ -7422,7 +7422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6085732754295286748, guid: c7ddff804e3274049bf213855e45e326, type: 3}
       propertyPath: m_Size.y
-      value: 1.3611784
+      value: 1.1780353
       objectReference: {fileID: 0}
     - target: {fileID: 6085732754295286748, guid: c7ddff804e3274049bf213855e45e326, type: 3}
       propertyPath: m_Offset.x
@@ -7430,7 +7430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6085732754295286748, guid: c7ddff804e3274049bf213855e45e326, type: 3}
       propertyPath: m_Offset.y
-      value: -0.08123183
+      value: -0.17280337
       objectReference: {fileID: 0}
     - target: {fileID: 6085732754295286751, guid: c7ddff804e3274049bf213855e45e326, type: 3}
       propertyPath: inkJSON
@@ -16807,7 +16807,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

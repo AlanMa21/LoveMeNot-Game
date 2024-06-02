@@ -12723,7 +12723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   QuestRequirements:
   - {fileID: 592924520}
-  activateOnComplete: {fileID: 0}
+  activateOnComplete: {fileID: 385580834}
   numberOfCompleted: 0
   numberRequired: 0
 --- !u!1 &1871318608
