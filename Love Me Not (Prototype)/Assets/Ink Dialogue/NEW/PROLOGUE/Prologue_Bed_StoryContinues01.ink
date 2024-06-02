@@ -356,6 +356,6 @@ BREAD: Yeah, that must be it.
 BREAD: ...
 BREAD: I should go back to bed just incase.
 //Exit dialogue, enable player movement.
-~ loadNextLevel(2)
+
 
 -> END

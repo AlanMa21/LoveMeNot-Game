@@ -1,4 +1,5 @@
 -> RecessProblem
+EXTERNAL loadNextLevel(buildIndex)
 
 === RecessProblem ===
 BREAD: (Confused) ?
@@ -19,4 +20,5 @@ BREAD: (Shock) I need to find something and get out of here! NOW!
 //End of Dialogue.
 //Find the three keys and escape. Three glowing items appear on the screen in random locations in the classroom. Bread must obtain all the glowing keys and escape the locked door before the countdown finishes. 20 seconds, optional, can be changed during and after testing to see how well it will be. The screen fades to black at the end of the timer or when Bread escapes.
 //FADE TO BLACKS.
+~loadNextLevel(5)
 -> END

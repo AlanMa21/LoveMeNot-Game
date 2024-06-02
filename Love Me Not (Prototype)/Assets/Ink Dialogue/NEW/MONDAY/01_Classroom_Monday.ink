@@ -1,3 +1,4 @@
+EXTERNAL loadNextLevel(buildIndex)
 -> ClassroomDoorMonday
 
 === ClassroomDoorMonday
@@ -5,4 +6,6 @@
 BREAD: (Tired) "Groan."
 BREAD: Here we go.
 //FADES TO BLACK
+~loadNextLevel(3)
+
 -> END
