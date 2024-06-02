@@ -5102,7 +5102,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6085732754295286746, guid: c7ddff804e3274049bf213855e45e326, type: 3}
   m_PrefabInstance: {fileID: 1083728286}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &489563528
+--- !u!114 &489563531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5111,13 +5111,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 489563526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbdbcc7861dbde0459334431d98a6fc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d209f20dc62db1342895fab975fecacc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
-  checkForComplete: 1
-  transition: {fileID: 0}
-  transitionTime: 1
+  hasBeenActivated: 0
+  canBeInteractedWith: 1
+--- !u!114 &489563532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489563526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc814fef623cee4290899b06e51d78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestRequirements:
+  - {fileID: 1934269545}
+  activateOnComplete: {fileID: 0}
+  numberOfCompleted: 0
+  numberRequired: 0
 --- !u!1001 &492580242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17666,6 +17681,11 @@ PrefabInstance:
     - {fileID: 6102684903916398904, guid: c7ddff804e3274049bf213855e45e326, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ddff804e3274049bf213855e45e326, type: 3}
+--- !u!1 &1934269545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6085732754358802497, guid: c7ddff804e3274049bf213855e45e326, type: 3}
+  m_PrefabInstance: {fileID: 1083728286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1950896744
 GameObject:
   m_ObjectHideFlags: 0
