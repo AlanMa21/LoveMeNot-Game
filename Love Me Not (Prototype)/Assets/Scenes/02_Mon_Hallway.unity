@@ -12815,7 +12815,7 @@ MonoBehaviour:
   sceneBuildIndex: 3
   checkForComplete: 0
   transition: {fileID: 1723413979}
-  transitionTime: 3
+  transitionTime: 5
 --- !u!114 &1132319931
 MonoBehaviour:
   m_ObjectHideFlags: 0

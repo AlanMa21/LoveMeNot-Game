@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 6085732754295286749}
   - component: {fileID: 6085732754295286748}
   - component: {fileID: 6085732754295286751}
+  - component: {fileID: 6102684903916398904}
   m_Layer: 0
   m_Name: Dialogue Trigger
   m_TagString: Untagged
@@ -157,6 +158,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCue: {fileID: 6085732754156421761}
   inkJSON: {fileID: 4900000, guid: 149739d9ffd423342850fec0ac5ae6ff, type: 3}
+  deniedInkJSON: {fileID: 0}
+  interactionCount: 0
+  isPassiveDialogue: 0
+  dM_Backup: {fileID: 0}
+  player: {fileID: 0}
+  NonNarrativeFunction: 0
+--- !u!114 &6102684903916398904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085732754295286746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdbcc7861dbde0459334431d98a6fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneBuildIndex: 4
+  checkForComplete: 1
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!1 &6085732754358802497
 GameObject:
   m_ObjectHideFlags: 0
