@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BreadMovement : MonoBehaviour
+public class BreadMovement : MonoBehaviour, IDataPersistance
 {
    
    public float moveSpeed = 1f;
@@ -12,8 +12,19 @@ public class BreadMovement : MonoBehaviour
 
    public float collisionOffset = 0.05f;
    public ContactFilter2D movementFilter; 
+
+   public void LoadData(GameData data)
+   {
+     
+   }
    
-   
+   public void SaveGame(ref GameData data)
+   {
+
+   }
+
+
+
    Vector2 movementInput;
    SpriteRenderer spriteRenderer;
    Rigidbody2D rb;
