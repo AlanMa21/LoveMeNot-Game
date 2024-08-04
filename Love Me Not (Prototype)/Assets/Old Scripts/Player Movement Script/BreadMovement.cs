@@ -15,12 +15,12 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
 
    public void LoadData(GameData data)
    {
-     
+      this.transform.position = data.playerPosition;
    }
    
    public void SaveGame(ref GameData data)
    {
-
+      data.playerPosition = this.transform.position;
    }
 
 
@@ -171,4 +171,8 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
 
         animator.SetBool(dirName, true);
     }
+
+    
+
+   
 }
