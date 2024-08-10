@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class BreadMovement : MonoBehaviour, IDataPersistance
 {
+    public Stats myStats;
    
    public float moveSpeed = 1f;
 
@@ -47,9 +48,9 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
     }
 
     // Update is called once per frame
-    void Update()
+   private void Update()
     {
-
+        
     }
 
     private void FixedUpdate()
@@ -173,6 +174,7 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
     }
 
     
+
 
    
 }

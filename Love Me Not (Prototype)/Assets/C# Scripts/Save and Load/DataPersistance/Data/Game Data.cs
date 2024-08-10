@@ -5,11 +5,11 @@ using UnityEngine;
 [System.Serializable]
 public class GameData 
 {
-    public Vector2 playerPosition;
+    public Vector3 playerPosition;
 
     public GameData ()
     {
-        playerPosition = Vector2.zero;
+        playerPosition = Vector3.zero;
         
     }
 
