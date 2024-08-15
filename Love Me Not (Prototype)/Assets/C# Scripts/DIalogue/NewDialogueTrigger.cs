@@ -18,12 +18,16 @@ public class NewDialogueTrigger : MonoBehaviour
     [Header("Denied Ink JSON")]
     [SerializeField] private TextAsset deniedInkJSON;
 
+    
+
     private bool playerInRange;
     public int interactionCount;
     public bool isPassiveDialogue;
 
     public NewDialogueManager dM_Backup;
     public BreadMovement player;
+
+    
 
     [SerializeField] private bool NonNarrativeFunction;
 
@@ -157,4 +161,6 @@ public class NewDialogueTrigger : MonoBehaviour
         }
         
     }
+
+    
 }

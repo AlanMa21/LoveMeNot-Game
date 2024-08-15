@@ -12,6 +12,8 @@ public class SceneTransition : MonoBehaviour
 
    public float transitionTime = 1f;
 
+   
+   
    private void OnTriggerEnter2D(Collider2D other)
    {
          print("Trigger Entered");
@@ -34,6 +36,7 @@ public class SceneTransition : MonoBehaviour
             else
             {
                SwitchScene();
+               
             }
          }
    }

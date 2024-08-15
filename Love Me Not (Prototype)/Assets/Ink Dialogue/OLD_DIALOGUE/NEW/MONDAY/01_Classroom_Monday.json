@@ -1,1 +1,0 @@
-﻿{"inkVersion":21,"root":[[{"->":"ClassroomDoorMonday"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"ClassroomDoorMonday":["^BREAD: (Tired) \"Groan.\"","\n","^BREAD: Here we go.","\n","ev",3,{"x()":"loadNextLevel","exArgs":1},"pop","/ev","\n","end",{"#f":1}],"#f":1}],"listDefs":{}}

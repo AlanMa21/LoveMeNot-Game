@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class BreadMovement : MonoBehaviour, IDataPersistance
 {
-    public Stats myStats;
+    
    
    public float moveSpeed = 1f;
 
