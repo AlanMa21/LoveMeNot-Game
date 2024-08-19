@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Ink.Parsed;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BreadMovement : MonoBehaviour, IDataPersistance
 {
-    
+    [SerializeField] float walkSpeed = 1f;
+    [SerializeField] float sprintSpeed = 3f;
+    [SerializeField] bool canSprint = true;
+
    
-   public float moveSpeed = 1f;
+   float currentSpeed;
 
 
    public float collisionOffset = 0.05f;
@@ -44,6 +48,8 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
+       
+
 
     }
 
@@ -63,6 +69,7 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
 
         if (canMove)
         {
+            
             if (Input.GetKey(KeyCode.W))
             {
                 SetDirection("dirIsUp");
@@ -81,6 +88,15 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
                 SetDirection("dirIsDown");
                 //Back
                 //animator.SetBool("dirIsDown", true);
+            }
+
+             if(TestIfSprinting())
+            {
+                  currentSpeed = sprintSpeed;
+            }
+            else
+            {
+                      currentSpeed = walkSpeed;
             }
 
 
@@ -123,6 +139,8 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
              {
                 
              }
+
+            
              
         } 
 
@@ -139,10 +157,10 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
                 direction,
                 movementFilter,
                 castCollisions,
-                moveSpeed * Time.fixedDeltaTime );
+                currentSpeed * Time.fixedDeltaTime );
 
             if(count == 0){
-                rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+                rb.MovePosition(rb.position + direction * currentSpeed * Time.fixedDeltaTime);
                 return true;
             
 
@@ -171,6 +189,14 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
         animator.SetBool("dirIsDown", false);
 
         animator.SetBool(dirName, true);
+    }
+
+    bool TestIfSprinting()
+    {
+        if(!canSprint){return false;}
+        //If different sprint key is desired, change the word "Space" to Something else.
+        if(Input.GetKey(KeyCode.Space)){return true;}
+        return false;
     }
 
     
