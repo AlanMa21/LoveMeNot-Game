@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1412895299}
-  inkJSON: {fileID: 4900000, guid: 475d98b84ec2ec64cba30afffade2546, type: 3}
+  inkJSON: {fileID: 4900000, guid: 1cc6826329cf77e41bcfa57590448e40, type: 3}
   deniedInkJSON: {fileID: 0}
   interactionCount: 0
   isPassiveDialogue: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1871318608}
-  inkJSON: {fileID: 4900000, guid: 23645c7be1b471b48922738da40c700f, type: 3}
+  inkJSON: {fileID: 4900000, guid: c176c78bb6889bc4a813861c55600894, type: 3}
   deniedInkJSON: {fileID: 0}
   interactionCount: 0
   isPassiveDialogue: 0
@@ -3547,7 +3547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1086880772
 Transform:
   m_ObjectHideFlags: 0
@@ -4948,6 +4948,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090750641921771793, guid: be1167213c6e74f4299464ad88e239b3, type: 3}
+      propertyPath: walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090750641921771793, guid: be1167213c6e74f4299464ad88e239b3, type: 3}
+      propertyPath: sprintSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1090750641921771797, guid: be1167213c6e74f4299464ad88e239b3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13019,7 +13027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1086880771}
-  inkJSON: {fileID: 4900000, guid: a02c69c7e48d6e24e80c5e98dd0094d3, type: 3}
+  inkJSON: {fileID: 4900000, guid: 4149567f1e677834782b3a949fa587cb, type: 3}
   deniedInkJSON: {fileID: 0}
   interactionCount: 0
   isPassiveDialogue: 0
@@ -13039,7 +13047,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.3665954, y: 0.20268786}
+  m_Offset: {x: 0.3665954, y: -0.2862705}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13050,7 +13058,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0068767, y: 1.1171081}
+  m_Size: {x: 1.0068767, y: 1.1746328}
   m_EdgeRadius: 0
 --- !u!1 &2048806189
 GameObject:
@@ -13098,7 +13106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 145274626}
-  inkJSON: {fileID: 4900000, guid: 24d068a977c48b04bbdfe1e0ff4344c2, type: 3}
+  inkJSON: {fileID: 4900000, guid: f6330994796036144a08b229007cf6f6, type: 3}
   deniedInkJSON: {fileID: 4900000, guid: 5ca0acd47726bd84191b773bc3a0abb1, type: 3}
   interactionCount: 0
   isPassiveDialogue: 0
