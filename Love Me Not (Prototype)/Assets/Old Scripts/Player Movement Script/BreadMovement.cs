@@ -76,11 +76,17 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
                 //Forward
                 //animator.SetBool("dirIsUp", true);
             }
-            if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+		if(Input.GetKey(KeyCode.A))
             {
-                SetDirection("dirIsSide");
-                //Sideways
-                //animator.SetBool("dirIsSide", true);
+                SetDirection("dirIsLeft");
+                //Left
+                //animator.SetBool("dirIsLeft", true);
+            }
+		if(Input.GetKey(KeyCode.D))
+            {
+                SetDirection("dirIsRight");
+                //Right
+                //animator.SetBool("dirIsRight", true);
             }
             
             if(Input.GetKey(KeyCode.S))
@@ -125,11 +131,11 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
                 animator.SetBool("isMoving", false);
             }
 
-            if (movementInput.x < 0)
+           //if (movementInput.x < 0)
             {
                 spriteRenderer.flipX = true;
             }
-            else if (movementInput.x > 0)
+            //else if (movementInput.x > 0)
             {
                 spriteRenderer.flipX = false;
 
@@ -185,7 +191,8 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
     void SetDirection(string dirName)
     {
         animator.SetBool("dirIsUp", false);
-        animator.SetBool("dirIsSide", false);
+        animator.SetBool("dirIsLeft", false);
+		animator.SetBool("dirIsRight", false);
         animator.SetBool("dirIsDown", false);
 
         animator.SetBool(dirName, true);
