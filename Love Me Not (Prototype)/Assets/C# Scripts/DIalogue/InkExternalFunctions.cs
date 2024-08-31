@@ -8,6 +8,8 @@ namespace Ink.Runtime
     public class InkExternalFunctions : MonoBehaviour
 {
     public TempObjective fairyRef;
+    public PlayerStats stats;
+    public HealthBar bar;
 
     public void Bind(Story story)
     {
@@ -32,6 +34,7 @@ namespace Ink.Runtime
             }
 
         });
+
     }
 }
 
