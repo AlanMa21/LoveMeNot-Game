@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1090750641921771793}
   - component: {fileID: 1090750641921771792}
   - component: {fileID: 1028753767}
+  - component: {fileID: 8110808694420335727}
   m_Layer: 0
   m_Name: Bread
   m_TagString: Player
@@ -179,7 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9f2dc01a15bf248b01099366556534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  walkSpeed: 1
+  sprintSpeed: 3
+  canSprint: 1
   collisionOffset: 0.05
   movementFilter:
     useTriggers: 0
@@ -230,3 +233,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 1090750641921771796}
+--- !u!114 &8110808694420335727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090750641921771799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab43a07697cce1e4b8fd1ec4137ba193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  minHealth: 0
+  healthBar: {fileID: 0}

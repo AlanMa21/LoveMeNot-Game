@@ -90,7 +90,7 @@ public class NewDialogueManager : MonoBehaviour
         }
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON)
+    public void EnterDialogueMode(TextAsset inkJSON, Animator camAnimation)
     {
         
         currentStory = new Story(inkJSON.text);
@@ -102,6 +102,7 @@ public class NewDialogueManager : MonoBehaviour
         
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
+        
 
         ContinueStory();
     }

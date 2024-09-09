@@ -14,6 +14,8 @@ public class TempObjective : MonoBehaviour
     [Header ("Activated Game Objects With Interaction")]
     [SerializeField]
     private GameObject activateOnComplete;
+  
+    
     [Space(20)]
 
     [SerializeField]
@@ -39,6 +41,9 @@ public class TempObjective : MonoBehaviour
         });
 
         numberRequired = QuestRequirements.Count;
+
+       
+
 
 
     }
@@ -107,5 +112,7 @@ public class TempObjective : MonoBehaviour
         
         
     }
+
+   
 
 }

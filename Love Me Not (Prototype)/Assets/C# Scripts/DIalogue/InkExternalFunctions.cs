@@ -8,6 +8,7 @@ namespace Ink.Runtime
     public class InkExternalFunctions : MonoBehaviour
 {
     public TempObjective fairyRef;
+    public TempObjective camAnimation;
     public PlayerStats stats;
     public HealthBar bar;
 
@@ -34,6 +35,11 @@ namespace Ink.Runtime
             }
 
         });
+
+        
+
+        
+
 
     }
 }

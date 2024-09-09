@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ink.Runtime;
+using UnityEngine.EventSystems;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class PlayerStats : MonoBehaviour
      private float currentHealth;
 
      public HealthBar healthBar;
+
+     private InkExternalFunctions externalFunctions;
     
      private void Start()
      {
