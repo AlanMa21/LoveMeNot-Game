@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using Ink;
+using System.Linq;
 
 public class NewDialogueManager : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class NewDialogueManager : MonoBehaviour
     private TextMeshProUGUI[] choicesText;
 
     private Story currentStory;
+
+    public PlayerStats stats;
 
     public bool dialogueIsPlaying { get; private set;}
     private static NewDialogueManager instance;
@@ -79,6 +83,8 @@ public class NewDialogueManager : MonoBehaviour
             if (currentChoices.Count > 1)
             {
                 isMultiChoice = true;
+                
+                
             }
             else
             {
@@ -90,7 +96,7 @@ public class NewDialogueManager : MonoBehaviour
         }
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON, Animator camAnimation)
+    public void EnterDialogueMode(TextAsset inkJSON )
     {
         
         currentStory = new Story(inkJSON.text);
@@ -124,6 +130,7 @@ public class NewDialogueManager : MonoBehaviour
             if(isMultiChoice)
             {
                 DisplayChoices();
+               
             }
             else
             {
@@ -180,6 +187,10 @@ public class NewDialogueManager : MonoBehaviour
     public void makeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
+        
     }
+
+   
+  
 
 }

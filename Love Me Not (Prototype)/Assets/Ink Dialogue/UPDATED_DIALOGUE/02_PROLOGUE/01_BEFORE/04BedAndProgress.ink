@@ -4,12 +4,15 @@
 
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
-EXTERNAL camAnimation()
+EXTERNAL addPoints()
+
 
 <color=\#ffffffff>Your bed, after a long, busy day, calls to you.
 Is it time to go to sleep?
 
-+ [<color=\#2b252c>Yes] -> YesBed
+
++ [<color=\#2b252c>Yes] -> YesBed 
+
 + [<color=\#2b252c>No] -> NoBed
 
 === NoBed ===
@@ -45,7 +48,7 @@ Then you hear it again.
 It doesn't help that a stranger stands before you at the end of your bed.
 Before you can ask questions, though, the figure speaks.
 
-~ camAnimation()
+
 <color=\#2f6ad0>Good, you're up.
 
 <color=\#ffffffff>Your eyes watch this stranger, their outfit odd and majestic looking.
@@ -323,7 +326,7 @@ Your name.
 
 <color=\#ffffffff>And just like that, the strange woman with wings vanishes.
 
-~ camAnimation()
+
 For a moment, you wonder if what you saw was real.
 But after a quick slap to the face, you realise otherwise.
 She calls it a gift, but really, it feels like a curse, one that goes against your very goals.

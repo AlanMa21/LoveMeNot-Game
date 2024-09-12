@@ -8,9 +8,9 @@ namespace Ink.Runtime
     public class InkExternalFunctions : MonoBehaviour
 {
     public TempObjective fairyRef;
-    public TempObjective camAnimation;
-    public PlayerStats stats;
-    public HealthBar bar;
+
+    public PlayerStats heal;
+    
 
     public void Bind(Story story)
     {
@@ -36,6 +36,14 @@ namespace Ink.Runtime
 
         });
 
+       story.BindExternalFunction ("addPoints", () =>
+       {
+           if(heal!=null)
+           {
+              heal.Heal(1f);
+           }
+          
+       });
         
 
         

@@ -12,7 +12,11 @@ public class PlayerStats : MonoBehaviour
 
      public HealthBar healthBar;
 
-     private InkExternalFunctions externalFunctions;
+    private InkExternalFunctions externalFunctions;
+
+    private NewDialogueManager dM;
+
+     
     
      private void Start()
      {
@@ -52,5 +56,7 @@ public class PlayerStats : MonoBehaviour
          {
             Debug.Log("Well Done, you're in Love Owo");
          }
+
+         
      }
 }
