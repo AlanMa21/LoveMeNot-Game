@@ -1102,7 +1102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1421700119}
   inkJSON: {fileID: 4900000, guid: 4db96fe5f2e0ee24a898623a65fefcca, type: 3}
-  deniedInkJSON: {fileID: 0}
+  deniedInkJSON: {fileID: 4900000, guid: 4db96fe5f2e0ee24a898623a65fefcca, type: 3}
   interactionCount: 0
   isPassiveDialogue: 0
   dM_Backup: {fileID: 0}
@@ -1181,7 +1181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCue: {fileID: 167054949}
   inkJSON: {fileID: 4900000, guid: 62c7442ff74d04f42a4e8beecf5f29d0, type: 3}
-  deniedInkJSON: {fileID: 0}
+  deniedInkJSON: {fileID: 4900000, guid: 62c7442ff74d04f42a4e8beecf5f29d0, type: 3}
   interactionCount: 0
   isPassiveDialogue: 0
   dM_Backup: {fileID: 0}
@@ -6296,7 +6296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCue: {fileID: 525758921}
   inkJSON: {fileID: 4900000, guid: e74260c9d458296468e50bcc44c8ad14, type: 3}
-  deniedInkJSON: {fileID: 0}
+  deniedInkJSON: {fileID: 4900000, guid: e74260c9d458296468e50bcc44c8ad14, type: 3}
   interactionCount: 0
   isPassiveDialogue: 0
   dM_Backup: {fileID: 0}
@@ -13728,9 +13728,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 678439938}
-  inkJSON: {fileID: 4900000, guid: b9fa0eac687e6ba43b21972d9efe7339, type: 3}
-  deniedInkJSON: {fileID: 0}
-  interactionCount: 0
+  inkJSON: {fileID: 4900000, guid: f6330994796036144a08b229007cf6f6, type: 3}
+  deniedInkJSON: {fileID: 4900000, guid: b9fa0eac687e6ba43b21972d9efe7339, type: 3}
+  interactionCount: 1
   isPassiveDialogue: 0
   dM_Backup: {fileID: 0}
   player: {fileID: 0}
