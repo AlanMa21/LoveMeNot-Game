@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f8808d24ebe5bf14bb887ace29984afe
+guid: 7ef3a9d5d2374f44f91ae9560bfbbe92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,11 +68,11 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 89
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -102,267 +102,27 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: with idle_0
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 194
-        width: 39
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad5ecfbf9e3c4948b45c2af4266a233
-      internalID: -1829290142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_1
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 194
-        width: 39
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd76991067048094f98f21a9b84b8f52
-      internalID: -1855553335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_2
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 194
-        width: 39
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41600882f4bd54144ac1e9d69ed7db28
-      internalID: -211140730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_3
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 190
-        width: 39
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8456e8baec449a44aac5ceb95d607bdf
-      internalID: -718769055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_4
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 130
-        width: 38
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e3c157a564b40948bbf7cfd707e3028
-      internalID: 1585859425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_5
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 130
-        width: 38
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c59771bd3c1fd6488919214ae8f6058
-      internalID: 358281085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_6
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 130
-        width: 38
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50254db5afeedcc45bed538811bc481b
-      internalID: -674061741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_7
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 130
-        width: 38
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 680ea4581fb94bd40a5ff21bf6cb1ddd
-      internalID: -1684377320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_8
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 66
-        width: 38
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b090dfaae9698d4fa099d219bb2c589
-      internalID: -431445725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_9
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 66
-        width: 38
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b9d72783dd79c34cb298e6c72132b07
-      internalID: 2140935728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_10
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 66
-        width: 38
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca7adbf9aa9af9c46b2a5d6106658fad
-      internalID: 570820328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_11
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 66
-        width: 38
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 993c149d056a3094c90cdfc8305bdeac
-      internalID: 1029636906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: with idle_12
+      name: Baked_Bread_0
       rect:
         serializedVersion: 2
         x: 13
-        y: 2
+        y: 209
         width: 39
         height: 59
       alignment: 0
@@ -372,18 +132,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf50bd55d90aeb4e96f38ebe3cbc0b4
-      internalID: 256550262
+      spriteID: 66dac3e439621cb41893d62a5556c087
+      internalID: 464347117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: with idle_13
+      name: Baked_Bread_1
       rect:
         serializedVersion: 2
         x: 78
-        y: 2
+        y: 209
         width: 39
         height: 60
       alignment: 0
@@ -393,18 +153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac958a95ff30905458f41d7c586167f9
-      internalID: -1927235479
+      spriteID: d9b86689dcc3e3149a24fbad35d92ad2
+      internalID: -361836294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: with idle_14
+      name: Baked_Bread_2
       rect:
         serializedVersion: 2
         x: 142
-        y: 2
+        y: 209
         width: 39
         height: 59
       alignment: 0
@@ -414,18 +174,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ec2ab0965d2574ea2276fea0ebb906
-      internalID: -1530155480
+      spriteID: 3f067ca3bf0273e43a8b165488b6a2a0
+      internalID: 2082332955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: with idle_15
+      name: Baked_Bread_3
       rect:
         serializedVersion: 2
-        x: 203
-        y: 2
+        x: 201
+        y: 207
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1871b969b931807408693d93590b145a
+      internalID: 115164179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 144
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8351d5faffec8fd4db63cca6a3e254aa
+      internalID: -1908260812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 144
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8541cb2b2bed84593c8ab5117f1d00
+      internalID: 1443321618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 144
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c454c5b8333093d42b12fb6909ffb03d
+      internalID: 952634317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 144
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efba80c54d9c974782ec05100d063b6
+      internalID: 2082615737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e534169f9d9368948ab6a115a9c5beac
+      internalID: 513663845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 79
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcf180d6c988ee4e8c41a50c482a863
+      internalID: -577372014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 79
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b923a0265a4e49a13da4c0c8b5a79
+      internalID: -1463017090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 79
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a9f4b3b6e1f36439292533bdc5d92a
+      internalID: 849844718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 14
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1afecd0284d07a43922dfb24829fd57
+      internalID: 1569686563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 14
         width: 39
         height: 60
       alignment: 0
@@ -435,8 +405,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e1c651f9994ac469553d3fda9c0599
-      internalID: 800739091
+      spriteID: 9c0d5ec20959f4443b8aa3daf220cc6c
+      internalID: -1802758523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 14
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46e2152907e4b847af5e2e05c99c7e9
+      internalID: -895037360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baked_Bread_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 14
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f6d000d3d51cb4babba51cd66acf20
+      internalID: 529610937
       vertices: []
       indices: 
       edges: []
@@ -452,22 +464,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      with idle_14: -1530155480
-      with idle_15: 800739091
-      with idle_5: 358281085
-      with idle_6: -674061741
-      with idle_0: -1829290142
-      with idle_8: -431445725
-      with idle_7: -1684377320
-      with idle_13: -1927235479
-      with idle_9: 2140935728
-      with idle_11: 1029636906
-      with idle_3: -718769055
-      with idle_12: 256550262
-      with idle_10: 570820328
-      with idle_2: -211140730
-      with idle_1: -1855553335
-      with idle_4: 1585859425
+      Baked_Bread_11: 849844718
+      Baked_Bread_15: 529610937
+      Baked_Bread_14: -895037360
+      Baked_Bread_4: -1908260812
+      Baked_Bread_7: 2082615737
+      Baked_Bread_0: 464347117
+      Baked_Bread_3: 115164179
+      Baked_Bread_12: 1569686563
+      Baked_Bread_10: -1463017090
+      Baked_Bread_5: 1443321618
+      Baked_Bread_13: -1802758523
+      Baked_Bread_2: 2082332955
+      Baked_Bread_8: 513663845
+      Baked_Bread_9: -577372014
+      Baked_Bread_6: 952634317
+      Baked_Bread_1: -361836294
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
