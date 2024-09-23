@@ -5532,6 +5532,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090750641921771792, guid: be1167213c6e74f4299464ad88e239b3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bcf4a8c7129305c4c875e9241d90cc79, type: 2}
     - target: {fileID: 1090750641921771793, guid: be1167213c6e74f4299464ad88e239b3, type: 3}
       propertyPath: walkSpeed
       value: 3
