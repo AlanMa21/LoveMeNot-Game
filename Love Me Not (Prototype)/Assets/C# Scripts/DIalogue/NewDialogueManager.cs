@@ -85,6 +85,7 @@ public class NewDialogueManager : MonoBehaviour
                 isMultiChoice = true;
                 
                 
+                
             }
             else
             {
@@ -189,6 +190,9 @@ public class NewDialogueManager : MonoBehaviour
         currentStory.ChooseChoiceIndex(choiceIndex);
         
     }
+
+  
+    
 
    
   

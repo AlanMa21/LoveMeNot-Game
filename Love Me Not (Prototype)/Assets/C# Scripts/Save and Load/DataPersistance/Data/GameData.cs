@@ -5,12 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class GameData 
 {
-    public Vector3 playerPosition;
+  private float playerPoints;
 
-    public GameData ()
-    {
-        playerPosition = Vector3.zero;
-        
-    }
-
+   public GameData()
+   {
+      this.playerPoints = 0f;
+   }
 }

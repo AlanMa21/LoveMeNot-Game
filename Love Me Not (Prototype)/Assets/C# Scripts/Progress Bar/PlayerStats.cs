@@ -16,6 +16,8 @@ public class PlayerStats : MonoBehaviour
 
     private NewDialogueManager dM;
 
+    
+
      
     
      private void Start()
@@ -56,6 +58,8 @@ public class PlayerStats : MonoBehaviour
          {
             Debug.Log("Well Done, you're in Love Owo");
          }
+
+         
 
          
      }

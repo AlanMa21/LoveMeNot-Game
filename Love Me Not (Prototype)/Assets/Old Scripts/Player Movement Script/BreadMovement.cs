@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BreadMovement : MonoBehaviour, IDataPersistance
+public class BreadMovement : MonoBehaviour
 {
     [SerializeField] float walkSpeed = 1f;
     [SerializeField] float sprintSpeed = 3f;
@@ -18,15 +18,6 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
    public float collisionOffset = 0.05f;
    public ContactFilter2D movementFilter; 
 
-   public void LoadData(GameData data)
-   {
-      this.transform.position = data.playerPosition;
-   }
-   
-   public void SaveGame(ref GameData data)
-   {
-      data.playerPosition = this.transform.position;
-   }
 
 
 
