@@ -1,0 +1,1 @@
+﻿{"inkVersion":21,"root":[[{"->":"06BedReturn"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"06BedReturn":["^<color=#ffffffff>You move back towards your bed, slowly dropping down on it.","\n","^Not wanting to repeat previous actions as if she would reappear again.","\n","^That woman","\n",{"->":"EndPrologue"},{"#f":1}],"EndPrologue":["end",{"#f":1}],"#f":1}],"listDefs":{}}

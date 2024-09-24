@@ -1,3 +1,6 @@
+VAR teleportLocationX = 0
+VAR teleportLocationY = 0
+
 -> 03Bathroom
 
 === 03Bathroom ===
@@ -13,7 +16,9 @@ Shall you enter?
 === YesBathroom ===
 
 <color=\#ffffffff>Turning the knob of the door, you enter the bathroom...
-//TP Character to Bathroom (x,y,z)
+
+    ~ teleportLocationX = 10
+    ~ teleportLocationY = 5
 -> END
 
 === NoBathroom ===
