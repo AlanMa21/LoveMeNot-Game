@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BreadMovement : MonoBehaviour
+public class BreadMovement : MonoBehaviour, IDataPersistance
 {
     [SerializeField] float walkSpeed = 1f;
     [SerializeField] float sprintSpeed = 3f;
@@ -29,6 +29,16 @@ public class BreadMovement : MonoBehaviour
    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
    public bool canMove;
+
+   public void LoadData(GameData data)
+   {
+      this.transform.position = data.playerPosition;
+   }
+
+   public void SaveData(ref GameData data)
+   {
+       data.playerPosition = this.transform.position;
+   }
 
 
     // Start is called before the first frame update

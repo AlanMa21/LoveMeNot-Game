@@ -33,7 +33,7 @@ public class FileDataHandler
                     dataToLoad = reader.ReadToEnd();
                  }
                }
-
+               // deserialize the data from Json back into the C# object
                loadedData = JsonUtility.FromJson<GameData>(dataToLoad);
 
             }

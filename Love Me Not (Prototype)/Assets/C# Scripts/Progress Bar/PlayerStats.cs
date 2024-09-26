@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using Ink.Parsed;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStats : MonoBehaviour, IDataPersistance
 {
      [SerializeField] private float maxHealth;
      [SerializeField] private float minHealth;
@@ -16,7 +17,15 @@ public class PlayerStats : MonoBehaviour
 
     private NewDialogueManager dM;
 
-    
+    public void LoadData(GameData data)
+    {
+       this.currentHealth = data.playerPoints;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+       data.playerPoints = this.currentHealth;
+    } 
 
      
     

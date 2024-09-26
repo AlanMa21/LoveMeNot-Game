@@ -5,10 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class GameData 
 {
-  private float playerPoints;
+  public float playerPoints;
 
+  public Vector2 playerPosition;
+  
+  // the values defined in this constructor will be the default values 
+  // the game starts with when there's no data to load
    public GameData()
    {
       this.playerPoints = 0f;
+      playerPosition = Vector2.zero;
    }
 }
