@@ -7321,7 +7321,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -23502,7 +23502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1062392483
 Transform:
   m_ObjectHideFlags: 0
@@ -24928,6 +24928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c90d107b9dbcc49b3a54ca5d7a6424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fileName: 
 --- !u!4 &1209947777
 Transform:
   m_ObjectHideFlags: 0
@@ -52794,7 +52795,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 2.5
-    NearClipPlane: 0.3
+    NearClipPlane: 0
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0

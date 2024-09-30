@@ -4,21 +4,12 @@
 
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
-EXTERNAL addPoints()
-EXTERNAL IncreasePoints(bool zero, bool one, bool two, bool three)
-EXTERNAL HasPoints()
-EXTERNAL TurnOffPoints()
 
 <color=\#ffffffff>Your bed, after a long, busy day, calls to you.
 Is it time to go to sleep?
 
-~ HasPoints()
-~IncreasePoints(true, false, false, false)
-+ [<color=\#2b252c>Yes] -> YesBed 
-
++ [<color=\#2b252c>Yes] -> YesBed
 + [<color=\#2b252c>No] -> NoBed
-
-~ TurnOffPoints()
 
 === NoBed ===
 
@@ -45,14 +36,11 @@ Then you hear it again.
 
 <color=\#2f6ad0>Ignoring me? How dare you ignore me!
 
-
 ~ toggleFairy()
-
 
 <color=\#ffffffff>Your eyes shot open, the voice far too clear to be part of your imagination.
 It doesn't help that a stranger stands before you at the end of your bed.
 Before you can ask questions, though, the figure speaks.
-
 
 <color=\#2f6ad0>Good, you're up.
 
@@ -328,10 +316,7 @@ Your name.
 
 ~ toggleFairy()
 
-
 <color=\#ffffffff>And just like that, the strange woman with wings vanishes.
-
-
 For a moment, you wonder if what you saw was real.
 But after a quick slap to the face, you realise otherwise.
 She calls it a gift, but really, it feels like a curse, one that goes against your very goals.
