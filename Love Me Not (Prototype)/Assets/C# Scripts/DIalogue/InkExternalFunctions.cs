@@ -10,7 +10,8 @@ namespace Ink.Runtime
     public TempObjective fairyRef;
 
     public PlayerStats heal;
-    
+
+    public NewDialogueManager manager;    
 
     public void Bind(Story story)
     {
@@ -44,7 +45,26 @@ namespace Ink.Runtime
            }
           
        });
-        
+
+
+       
+       story.BindExternalFunction ("IncreasePoints", (bool zero, bool one, bool two, bool three) =>
+       {
+          if(manager!=null)
+          {
+            manager.PointIncrease(zero, one, two, three);
+          }
+          
+       });
+       story.BindExternalFunction("HasPoints", () =>
+       {
+        manager.hasPoints = true;
+       });
+       
+        story.BindExternalFunction("TurnOffPoints", () =>
+        {
+            manager.TurnOffPoints();
+        }) ;
 
         
 

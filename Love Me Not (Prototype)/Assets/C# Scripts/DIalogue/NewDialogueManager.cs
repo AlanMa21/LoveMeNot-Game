@@ -30,6 +30,7 @@ public class NewDialogueManager : MonoBehaviour
 
     [SerializeField]
     private InkExternalFunctions externalFunctions;
+    public bool[] bools;
 
     private void Awake()
     {
@@ -43,6 +44,15 @@ public class NewDialogueManager : MonoBehaviour
         if(gameObject.GetComponent<InkExternalFunctions>()!=null)
         {
             externalFunctions = gameObject.GetComponent<InkExternalFunctions>();
+        }
+        stats = FindObjectOfType<PlayerStats>();
+
+        for(int i = 0; i < transform.parent.GetChild(1).GetChild(0).GetChild(0).childCount; i++)
+        {
+            if(transform.parent.GetChild(1).GetChild(0).GetChild(0).GetChild(i))
+            {
+                Choices.Add(transform.parent.GetChild(1).GetChild(0).GetChild(0).GetChild(i).gameObject);
+            }
         }
     }
 
@@ -130,7 +140,10 @@ public class NewDialogueManager : MonoBehaviour
         {
             if(isMultiChoice)
             {
-                DisplayChoices();
+                if(hasPoints == false)
+                {
+                    DisplayChoices();
+                }
                
             }
             else
@@ -149,7 +162,6 @@ public class NewDialogueManager : MonoBehaviour
            StartCoroutine (ExitDialogueMode());
         }
     }
-
     private void DisplayChoices()
     {
         List<Choice> currentChoices = currentStory.currentChoices;
@@ -166,13 +178,9 @@ public class NewDialogueManager : MonoBehaviour
         {
             choices[index].gameObject.SetActive(true);
             choicesText[index].text = choice.text;
-            if(choices[index].GetComponent<ChoiceData>().pointIncrease)
-            {
-                stats.Heal(1f);
-            }
+           
             index++;
         }
-
         for (int i = index; i < choices.Length; i++)
         {
             choices[i].gameObject.SetActive(false);
@@ -180,6 +188,33 @@ public class NewDialogueManager : MonoBehaviour
 
         StartCoroutine(SelectFirstChoice());
     }
+    public void TurnOffPoints()
+    {
+        for(int i =0; i < Choices.Count; i++)
+        {
+            Choices[i].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease = false;
+        }
+    }
+    public void PointIncrease(bool zero, bool one, bool two, bool three)
+    {
+        if(zero)
+        {
+            Choices[0].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease = zero;
+        }
+        if(one)
+        {
+            Choices[1].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease = one;
+        }
+        if(two)
+        {
+            Choices[2].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease = two;
+        }
+        if(three)
+        {
+            Choices[3].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease = three;
+        }
+    }
+    
 
     private IEnumerator SelectFirstChoice()
     {
@@ -192,8 +227,15 @@ public class NewDialogueManager : MonoBehaviour
     public void makeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
-        
-    }
+        if(choices[choiceIndex].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease)
+        {
+            stats.Heal(1f);
+        }
+    }  
+
+    public List<GameObject> Choices = new List<GameObject>();
+    public bool hasPoints;
+    
 }
 [System.Serializable]
 public class ChoiceData

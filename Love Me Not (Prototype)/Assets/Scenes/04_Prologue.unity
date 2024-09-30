@@ -4114,6 +4114,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab43a07697cce1e4b8fd1ec4137ba193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1083198016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2391687473858703700, guid: 1167941c51e310f49bb5cc6e5b38f4fe, type: 3}
+  m_PrefabInstance: {fileID: 6252350619392579746}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70233366947769c4284fa9aa9a7c4d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1086880771
 GameObject:
   m_ObjectHideFlags: 0
@@ -15011,10 +15022,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3728130163674987719, guid: 1167941c51e310f49bb5cc6e5b38f4fe, type: 3}
+      propertyPath: choiceData.pointIncrease
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8177387603380161009, guid: 1167941c51e310f49bb5cc6e5b38f4fe, type: 3}
       propertyPath: heal
       value: 
       objectReference: {fileID: 1080069143}
+    - target: {fileID: 8177387603380161009, guid: 1167941c51e310f49bb5cc6e5b38f4fe, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 1083198016}
     - target: {fileID: 8177387603380161009, guid: 1167941c51e310f49bb5cc6e5b38f4fe, type: 3}
       propertyPath: fairyRef
       value: 
