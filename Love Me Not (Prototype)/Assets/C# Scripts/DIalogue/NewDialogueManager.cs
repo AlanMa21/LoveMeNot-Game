@@ -166,6 +166,10 @@ public class NewDialogueManager : MonoBehaviour
         {
             choices[index].gameObject.SetActive(true);
             choicesText[index].text = choice.text;
+            if(choices[index].GetComponent<ChoiceData>().pointIncrease)
+            {
+                stats.Heal(1f);
+            }
             index++;
         }
 
@@ -190,11 +194,9 @@ public class NewDialogueManager : MonoBehaviour
         currentStory.ChooseChoiceIndex(choiceIndex);
         
     }
-
-  
-    
-
-   
-  
-
+}
+[System.Serializable]
+public class ChoiceData
+{
+    public bool pointIncrease;
 }

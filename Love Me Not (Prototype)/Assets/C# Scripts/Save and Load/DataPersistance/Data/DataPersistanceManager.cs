@@ -83,9 +83,9 @@ public class DataPersistanceManager : MonoBehaviour
    public void SaveGame()
    {
       // pass the data to other scripts so they can update it
-      foreach (IDataPersistance dataPersistanceObj in dataPersistanceObjects)
+      for(int i = 0; i < dataPersistanceObjects.Count; i++)
       {
-         dataPersistanceObj.SaveData(ref gameData);
+         dataPersistanceObjects[i].SaveData(ref gameData);
       }
 
       // save that to file using the data handler
@@ -99,9 +99,8 @@ public class DataPersistanceManager : MonoBehaviour
 
    private List<IDataPersistance> FindAllDataPersistanceObjects()
    {
-      IEnumerable<IDataPersistance> dataPersistancesOjects = FindObjectsOfType<MonoBehaviour>()
-      .OfType<IDataPersistance>();
-
-      return new List<IDataPersistance>(dataPersistanceObjects);
+      IEnumerable<IDataPersistance> dataPersistancesOjects = new List<IDataPersistance>(FindObjectsOfType<MonoBehaviour>()
+      .OfType<IDataPersistance>());
+      return new List<IDataPersistance>(dataPersistancesOjects);
    }
 }

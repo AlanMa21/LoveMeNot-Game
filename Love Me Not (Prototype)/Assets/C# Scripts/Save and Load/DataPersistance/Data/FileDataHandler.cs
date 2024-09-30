@@ -6,8 +6,8 @@ using System.IO;
 
 public class FileDataHandler
 {
-    private string dataDirthPath = "";
-    private string dataFileName = "";
+    private string dataDirthPath = "C:/";
+    private string dataFileName = "data";
     
     public FileDataHandler(string dataDirthPath, string dataFileName)
     {
@@ -52,8 +52,8 @@ public class FileDataHandler
         try
         {
            //create the directory the file will be written to if it doesn't already exist
-           Directory.CreateDirectory(Path.GetDirectoryName(fullPath));
-
+           string a = Directory.CreateDirectory(Path.GetDirectoryName(fullPath)).Name;
+           Debug.Log(a);
 
            //serialize the C# game data object into JSON
            string dataToStore = JsonUtility.ToJson(data, true);
@@ -63,6 +63,7 @@ public class FileDataHandler
            {
               using (StreamWriter writer = new StreamWriter(stream))
               {
+                Debug.Log(writer);
                  writer.Write(dataToStore);
               }
            }
