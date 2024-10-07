@@ -24,7 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/05_Mon_Morning.unity
     guid: 2974fc6962d00e74bad4d71adb8b4b14
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/06_Mon_Classroom1.unity
+=======
+    path: Assets/Scenes/06_Mon_BeforeClass.unity
+>>>>>>> a08e6c5c72e95cad632a25cfa57f290219ec0499
     guid: b61c80745c1932c4a92ec41dc87dc987
   - enabled: 1
     path: Assets/Scenes/07_ClassA1.unity
