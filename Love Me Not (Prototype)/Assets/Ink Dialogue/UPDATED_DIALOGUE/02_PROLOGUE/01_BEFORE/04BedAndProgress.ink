@@ -4,9 +4,15 @@
 
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
+EXTERNAL IncreasePoints(bool zero, bool one, bool two, bool three)
+EXTERNAL HasPoints()
+EXTERNAL TurnOffPoints()
 
 <color=\#ffffffff>Your bed, after a long, busy day, calls to you.
 Is it time to go to sleep?
+
+~HasPoints()
+~IncreasePoints(true, false, false, false)
 
 + [<color=\#2b252c>Yes] -> YesBed
 + [<color=\#2b252c>No] -> NoBed
@@ -17,9 +23,11 @@ Is it time to go to sleep?
 Sleep can wait a moment longer.
 -> END
 
+
 === YesBed ===
 
 <color=\#ffffffff>Falling onto the soft mattress, a sigh escapes your lips.
+~TurnOffPoints()
 You're too tired to even sleep on a bed properly.
 As your eyes close shut, you think about the day you had.
 Your body is sore, the scent of dough on your skin, and the creak of the mattress under you.

@@ -6,7 +6,7 @@ using System.IO;
 
 public class FileDataHandler
 {
-    private string dataDirthPath = "C:/";
+    private string dataDirthPath = "L:/";
     private string dataFileName = "data";
     
     public FileDataHandler(string dataDirthPath, string dataFileName)
@@ -18,7 +18,7 @@ public class FileDataHandler
     public GameData Load()
     {
         // use Path.Combine to account for the different OS's having different path separators
-        string fullPath = Path.Combine(dataDirthPath, dataDirthPath);
+        string fullPath = Path.Combine(dataDirthPath, dataFileName);
         GameData loadedData = null;
         if(File.Exists(fullPath))
         {

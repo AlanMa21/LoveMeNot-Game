@@ -27,7 +27,7 @@ public class DataPersistanceManager : MonoBehaviour
       }
       instace = this;
 
-      this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+      this.dataHandler = new FileDataHandler(Application.streamingAssetsPath, fileName);
    }
 
    private void OnEnable()

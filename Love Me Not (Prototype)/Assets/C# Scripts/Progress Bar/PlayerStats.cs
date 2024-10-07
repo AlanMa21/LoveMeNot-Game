@@ -9,7 +9,7 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
 {
      [SerializeField] private float maxHealth;
      [SerializeField] private float minHealth;
-     private float currentHealth;
+     public float currentHealth;
 
      public HealthBar healthBar;
 
@@ -20,18 +20,20 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
     public void LoadData(GameData data)
     {
        this.currentHealth = data.playerPoints;
+       Debug.Log(data.playerPoints);
     }
 
     public void SaveData(ref GameData data)
     {
        data.playerPoints = this.currentHealth;
+       data.playerPoints = 10;
     } 
 
      
     
      private void Start()
      {
-        currentHealth = minHealth;
+        //currentHealth = minHealth;
 
         healthBar.SetSliderMax(maxHealth);
         healthBar.SetSliderMin(minHealth);

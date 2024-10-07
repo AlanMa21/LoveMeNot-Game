@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBar : MonoBehaviour
+public class HealthBar : MonoBehaviour, IDataPersistance
 {
     public Slider healthSlider;
     public void SetSlider(float amount)
@@ -24,4 +24,17 @@ public class HealthBar : MonoBehaviour
          healthSlider.minValue = amount;
          SetSlider(amount);
     }
+
+    public void LoadData(GameData data)
+    {
+       Debug.Log(data.playerPoints);
+       SetSlider(data.playerPoints);
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.playerPoints = this.healthSlider.value;
+        Debug.Log(data.playerPoints);
+    }
+
 }
