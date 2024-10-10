@@ -14578,7 +14578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2139626118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14591,6 +14591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c90d107b9dbcc49b3a54ca5d7a6424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initializeDataNull: 1
   fileName: data.game
 --- !u!4 &2139626119
 Transform:
