@@ -27,6 +27,7 @@ public class HealthBar : MonoBehaviour, IDataPersistance
 
     public void LoadData(GameData data)
     {
+       this.healthSlider.value = data.playerPoints;
        Debug.Log(data.playerPoints);
        SetSlider(data.playerPoints);
     }

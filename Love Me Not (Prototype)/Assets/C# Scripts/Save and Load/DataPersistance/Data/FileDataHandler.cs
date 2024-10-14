@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
+using JetBrains.Annotations;
 
 public class FileDataHandler
 {
@@ -15,10 +16,10 @@ public class FileDataHandler
         this.dataFileName = dataFileName;
     }
 
-    public GameData Load()
+    public GameData Load(string profileId)
     {
         // use Path.Combine to account for the different OS's having different path separators
-        string fullPath = Path.Combine(dataDirthPath, dataFileName);
+        string fullPath = Path.Combine(dataDirthPath, profileId, dataFileName);
         GameData loadedData = null;
         if(File.Exists(fullPath))
         {
@@ -45,10 +46,10 @@ public class FileDataHandler
         return loadedData;
     }
 
-    public void Save(GameData data)
+    public void Save(GameData data, string profileId)
     {
         // use Path.Combine to account for the different OS's having different path separators
-        string fullPath = Path.Combine(dataDirthPath, dataFileName);
+        string fullPath = Path.Combine(dataDirthPath, profileId, dataFileName);
         try
         {
            //create the directory the file will be written to if it doesn't already exist
@@ -72,5 +73,41 @@ public class FileDataHandler
         {
             Debug.Log("Error occured when trying to save data to file: " + fullPath + "/n" + e);
         }
+    }
+
+    public Dictionary<string, GameData> LoadAllFiles()
+    {
+        Dictionary<string, GameData> profileDictionary = new Dictionary<string, GameData>();
+
+        // loop over all directory names in the data directory path
+        IEnumerable<DirectoryInfo> dirInfos = new DirectoryInfo(dataDirthPath).EnumerateDirectories();
+        foreach (DirectoryInfo dirInfo in dirInfos)
+        {
+            string profileId = dirInfo.Name;
+            // defensive programming-  check if the datat file exsists
+            // if it doesn't then this folder isn't a profile and should be skipped
+            string fullPath = Path.Combine(dataDirthPath, profileId, dataFileName);
+            if(!File.Exists(fullPath))
+            {
+                Debug.LogWarning("Skipping directory when loading all profiles because it does not contain data:"
+                + profileId);
+                continue;
+            }
+
+            //load the game data for this profile and put it in the dictionary
+            GameData profileData =  Load(profileId);
+            // defensive programming - ensuring the profile data isn't null
+            // because if it is then something went wrong and we should let oursleves know
+            if (profileData !=null)
+            {
+                profileDictionary.Add(profileId, profileData);
+            }
+            else
+            {
+                Debug.LogError("Tried to load profile but something went wrong. ProfileId :" + profileId);
+            }
+        }
+
+        return profileDictionary;
     }
 }

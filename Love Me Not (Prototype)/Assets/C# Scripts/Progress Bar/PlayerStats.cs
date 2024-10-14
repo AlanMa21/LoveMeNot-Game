@@ -9,7 +9,8 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
 {
      [SerializeField] private float maxHealth;
      [SerializeField] private float minHealth;
-     public float currentHealth;
+
+     private float currentHealth;
 
      public HealthBar healthBar;
 
