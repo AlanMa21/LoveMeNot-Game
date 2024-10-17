@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class GameData 
 {
+
+  public long lastUpdated;
   public float playerPoints;
 
   public Vector2 playerPosition;
+
+  
 
   
   
@@ -17,6 +22,7 @@ public class GameData
    {
       this.playerPoints = 0f;
       playerPosition = Vector2.zero;
+      SceneManager.LoadSceneAsync(0);
 
    }
 }

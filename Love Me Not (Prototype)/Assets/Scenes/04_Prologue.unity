@@ -14591,8 +14591,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c90d107b9dbcc49b3a54ca5d7a6424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initializeDataNull: 1
+  initializeDataNull: 0
+  disableDataPersistance: 0
   fileName: data.game
+  overriderSelectedProfileId: 0
+  testSelectedProfileId: ' test '
 --- !u!4 &2139626119
 Transform:
   m_ObjectHideFlags: 0
