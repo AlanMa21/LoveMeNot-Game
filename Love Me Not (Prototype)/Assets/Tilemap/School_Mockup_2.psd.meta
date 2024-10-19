@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a705b9f840197f54298d5181988bd2d7
-      internalID: 287442869
+      spriteID: b10fe7ce0a6470e499dd642c39fd147b
+      internalID: -1305282063
       vertices: []
       indices: 
       edges: []
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73ed718f5d9bf994db19e7fb7b1f8bbe
-      internalID: 51164744
+      spriteID: 0e9ae5ee813a07c418a7502bff0b84b9
+      internalID: -1640903494
       vertices: []
       indices: 
       edges: []
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520a0c1ede682714ab079d20c0ced6fd
-      internalID: -516243102
+      spriteID: 4b6ffd5af5c4644428b2417bc1a2cf87
+      internalID: -1886024571
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83041ca0d7efc241ac35651ed7eb43d
-      internalID: 719988689
+      spriteID: fdf6db449aad0794786d2c00480c243a
+      internalID: 1499574581
       vertices: []
       indices: 
       edges: []
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4501e60a3f7082f479e53fde92ce4bb7
-      internalID: -1008438139
+      spriteID: da103d324427cbf45bdd626ab7f40922
+      internalID: 1756493975
       vertices: []
       indices: 
       edges: []
@@ -229,7 +229,7 @@ TextureImporter:
         x: 232
         y: 232
         width: 32
-        height: 32
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a04372f7fa63d0e4883b1c3ad9f76c36
-      internalID: -1215436208
+      spriteID: e8f3d3050c8be4f4fbfe823c81de6f22
+      internalID: -1462351019
       vertices: []
       indices: 
       edges: []
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002fd175ee4efdb4381a9f03ffae9308
-      internalID: -624066578
+      spriteID: e948ad08696e3054ea996f4e558abce7
+      internalID: -303537997
       vertices: []
       indices: 
       edges: []
@@ -279,35 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ab167d38f7164543a12afd66bc03b00
-      internalID: -427338989
+      spriteID: 229b09e62c4293348ac43e9589ad3305
+      internalID: 1690630504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: School_Mockup_2_8
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 232
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bbe4efaa55f4974e83f184eda23d9af
-      internalID: -1899641711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_9
       rect:
         serializedVersion: 2
         x: 1
@@ -321,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608355b2a326413498ca92e396c19d82
-      internalID: -1604338848
+      spriteID: be62b3e0d34d6cb439c86c537f5b5a0a
+      internalID: -1089128942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_10
+      name: School_Mockup_2_9
       rect:
         serializedVersion: 2
         x: 34
@@ -342,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a746bbee48a35be4d952f61c8da124b1
-      internalID: -855858657
+      spriteID: db31e658c6b43164c8b8f3927f259b05
+      internalID: -1666062930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_11
+      name: School_Mockup_2_10
       rect:
         serializedVersion: 2
         x: 67
@@ -363,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddac413c2f532184fa20da11fbeb9fb8
-      internalID: -491573025
+      spriteID: 3c0fef2a8b650c74cba7b78826dd2956
+      internalID: 1532982849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_12
+      name: School_Mockup_2_11
       rect:
         serializedVersion: 2
         x: 100
@@ -384,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae682d511c564454099079348334facf
-      internalID: -255051693
+      spriteID: 568c2c63fd3df3c4e93ef2c12ed54330
+      internalID: -1395624838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_13
+      name: School_Mockup_2_12
       rect:
         serializedVersion: 2
         x: 166
@@ -405,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7fee3ce044fd0643aa0f309de0cae02
-      internalID: 1977288760
+      spriteID: 55c78a50222ed994a893b003a74f477a
+      internalID: -624599997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_14
+      name: School_Mockup_2_13
       rect:
         serializedVersion: 2
         x: 199
@@ -426,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c24d7507c810e0478dda6b07ab57daa
-      internalID: -1765583666
+      spriteID: 6f6cf579fd0b29b45b7ed24c4001409f
+      internalID: -1817008068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_15
+      name: School_Mockup_2_14
       rect:
         serializedVersion: 2
         x: 232
@@ -447,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ec516466f6f30f409aa3a2c94b87a6f
-      internalID: 238882978
+      spriteID: 5a1978c401fa10d4892dee984228b334
+      internalID: -581747387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_16
+      name: School_Mockup_2_15
       rect:
         serializedVersion: 2
         x: 265
@@ -468,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 730eb6ae7f0e2414185bc3538b7bceca
-      internalID: 1662539409
+      spriteID: 655edbcbe3ac7fc4ca1362047c111ea0
+      internalID: 175223579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_17
+      name: School_Mockup_2_16
       rect:
         serializedVersion: 2
         x: 298
@@ -489,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32858e63f265171478aa765e8795a154
-      internalID: -8363653
+      spriteID: f9545d1ced4fbcd4c9b68d02e6c43f54
+      internalID: 397254815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_18
+      name: School_Mockup_2_17
       rect:
         serializedVersion: 2
         x: 331
@@ -510,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc568f1bdba4ce4588e6c2579256532
-      internalID: 1113304831
+      spriteID: 1f019385696d04d4a9c58452bf18b4dc
+      internalID: -1926991158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_19
+      name: School_Mockup_2_18
       rect:
         serializedVersion: 2
         x: 1
@@ -531,19 +510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5346e332d1c5dde48a40ebf7ae109fc1
-      internalID: 832532078
+      spriteID: 33008ec30bdfa65479f20c0e736012ec
+      internalID: -1579620277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_20
+      name: School_Mockup_2_19
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 166
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -552,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 684ad4c172519424eb4c04ed9739b619
-      internalID: -1336877034
+      spriteID: 884cdfa0ced87a348a408b404f984c96
+      internalID: 1233913624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_21
+      name: School_Mockup_2_20
       rect:
         serializedVersion: 2
         x: 67
@@ -573,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb249f657d6254347b46af29b2b583ab
-      internalID: -1956002792
+      spriteID: 52c25f5172ea4a94cb2a35cdb6a7222b
+      internalID: 690100449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_22
+      name: School_Mockup_2_21
       rect:
         serializedVersion: 2
         x: 100
@@ -594,56 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6999c24256a75af4aa62d90eda60c745
-      internalID: 739787708
+      spriteID: 6f2480223c176f04fa27ec9ca5f323c9
+      internalID: -2126432156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_23
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 166
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 241153ab5a417d843950394c5306bc40
-      internalID: -767274411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_24
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 166
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dae94a05474a314494003d7c3a4518c
-      internalID: -698486298
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_25
+      name: School_Mockup_2_22
       rect:
         serializedVersion: 2
         x: 199
@@ -657,20 +594,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9e912f0339b0642817bb18194f76c2
-      internalID: 1926569681
+      spriteID: f589256a8ee187246ae8ef3532729b84
+      internalID: 1324216614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_26
+      name: School_Mockup_2_23
       rect:
         serializedVersion: 2
         x: 240
-        y: 172
+        y: 175
         width: 17
-        height: 20
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,14 +615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb1d916faa1a6d448a01df98ba9fc78
-      internalID: 561791804
+      spriteID: a7ef44a363183bd40a778562dfb28f1f
+      internalID: -1922720903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_27
+      name: School_Mockup_2_24
       rect:
         serializedVersion: 2
         x: 275
@@ -699,8 +636,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62629ca1181ead443983db8a7eb3b253
-      internalID: -1192415721
+      spriteID: d7a81e3d4829d7142b0786ab9c1bc066
+      internalID: 912367942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 178
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123333f23dc8b2d4eafda07685930015
+      internalID: -677695760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddbff4b84769b947bfe443d659649f1
+      internalID: -1090058084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd5cbe13dd06943a19cf59f2969cc6
+      internalID: -732130143
       vertices: []
       indices: 
       edges: []
@@ -709,9 +709,9 @@ TextureImporter:
       name: School_Mockup_2_28
       rect:
         serializedVersion: 2
-        x: 299
+        x: 166
         y: 166
-        width: 24
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -720,8 +720,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08187b472a493344380a406520725240
-      internalID: -850273177
+      spriteID: 93e5773f9e1503d439104c1b7a15b490
+      internalID: -1269151900
       vertices: []
       indices: 
       edges: []
@@ -730,8 +730,8 @@ TextureImporter:
       name: School_Mockup_2_29
       rect:
         serializedVersion: 2
-        x: 331
-        y: 166
+        x: 1
+        y: 133
         width: 32
         height: 32
       alignment: 0
@@ -741,8 +741,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a55a82c6e94a1d40a19acd582646296
-      internalID: -1498964351
+      spriteID: 55b395b2b0633a648a57180bc3756425
+      internalID: 170397774
       vertices: []
       indices: 
       edges: []
@@ -751,9 +751,9 @@ TextureImporter:
       name: School_Mockup_2_30
       rect:
         serializedVersion: 2
-        x: 1
+        x: 35
         y: 133
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -762,8 +762,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e65719cf14daa342b7f38647de9d58a
-      internalID: 513753812
+      spriteID: ad9697e8786dc0c4e9ffbd8536c9a0a6
+      internalID: -1488756576
       vertices: []
       indices: 
       edges: []
@@ -772,27 +772,6 @@ TextureImporter:
       name: School_Mockup_2_31
       rect:
         serializedVersion: 2
-        x: 34
-        y: 133
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d74a5a9d98c5af4f896a656443f99f4
-      internalID: -262623345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_32
-      rect:
-        serializedVersion: 2
         x: 67
         y: 133
         width: 32
@@ -804,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4cfdd7ba17a1b4fb1ffb043a480272
-      internalID: 788713926
+      spriteID: 0fd0fa29857407847a03eedb07d46f62
+      internalID: 1759958227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_33
+      name: School_Mockup_2_32
       rect:
         serializedVersion: 2
         x: 100
@@ -825,8 +804,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd08ceac0e0c6b498485a3ab3fc6940
-      internalID: -760781057
+      spriteID: 4b7c5f0fdf7910a4c822ddab37f8b418
+      internalID: 174558086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_33
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 134
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98496c384c9874491bfadc4352786d
+      internalID: -915691936
       vertices: []
       indices: 
       edges: []
@@ -835,10 +835,10 @@ TextureImporter:
       name: School_Mockup_2_34
       rect:
         serializedVersion: 2
-        x: 133
-        y: 133
+        x: 166
+        y: 134
         width: 32
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,35 +846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 386fbc68ec10ee44db6bd74e1967a447
-      internalID: 1666126937
+      spriteID: ea1713d41bda6b242ac97f47eb21ff4f
+      internalID: -1702254981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: School_Mockup_2_35
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 133
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d657d97de38d94842b6f03eba2f9d844
-      internalID: 1338808335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_36
       rect:
         serializedVersion: 2
         x: 199
@@ -888,8 +867,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605215ea2a0ff734189e3e658274b968
-      internalID: -194914063
+      spriteID: 02b9cd0b7a40ac64c9a3e3f8c191c919
+      internalID: 1642892039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_36
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 133
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0861c3422dbf547ac648b08d5883cb
+      internalID: -130503374
       vertices: []
       indices: 
       edges: []
@@ -898,10 +898,10 @@ TextureImporter:
       name: School_Mockup_2_37
       rect:
         serializedVersion: 2
-        x: 232
+        x: 265
         y: 133
         width: 32
-        height: 28
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,8 +909,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93d0412150b0bff4cabf35f7f9e1ff62
-      internalID: -1625268157
+      spriteID: 618125bd05373ee4f8fb7fb605223357
+      internalID: 974186485
       vertices: []
       indices: 
       edges: []
@@ -919,10 +919,10 @@ TextureImporter:
       name: School_Mockup_2_38
       rect:
         serializedVersion: 2
-        x: 265
+        x: 298
         y: 133
         width: 32
-        height: 28
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,8 +930,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9de87e40de58441a6d19c4f8d594f7
-      internalID: 987545021
+      spriteID: a90ddc38a8ae64d41ac6639e3721c878
+      internalID: 1534075638
       vertices: []
       indices: 
       edges: []
@@ -940,10 +940,10 @@ TextureImporter:
       name: School_Mockup_2_39
       rect:
         serializedVersion: 2
-        x: 298
+        x: 331
         y: 133
         width: 32
-        height: 32
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,35 +951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cd0a90c4026e6a458504d94cf88eb7b
-      internalID: -460620280
+      spriteID: fcd2e0e71ee40db49a11e997c74abcac
+      internalID: -625800629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: School_Mockup_2_40
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 133
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a15d6e3b3a68d08429e642fff6b0162f
-      internalID: -1565254260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_41
       rect:
         serializedVersion: 2
         x: 1
@@ -993,14 +972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d1f537c6c23d94a8bb9d6deed31e7a
-      internalID: -1840511811
+      spriteID: 303897631db3edb46b04b6aa9ca447f9
+      internalID: 1922250593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_42
+      name: School_Mockup_2_41
       rect:
         serializedVersion: 2
         x: 34
@@ -1014,14 +993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef9c1a5607e07f45aee3382c6bc3bae
-      internalID: -1003204719
+      spriteID: e6a609119f506ee42a25da520f8a7e62
+      internalID: 1063663613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_43
+      name: School_Mockup_2_42
       rect:
         serializedVersion: 2
         x: 67
@@ -1035,14 +1014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2049a8a1956a424c9b800ad602eb1db
-      internalID: -1533703715
+      spriteID: 05fe4cdb8e7ff9345ae97cad58ebf257
+      internalID: 141918748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_44
+      name: School_Mockup_2_43
       rect:
         serializedVersion: 2
         x: 100
@@ -1056,56 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef99799edb41734c8f968ac097b83b1
-      internalID: 576670992
+      spriteID: 554d43ceecc20b54b923e0a2a4b149d1
+      internalID: -201883486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_45
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 100
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb54f0296bb82846888f9e25d5f4201
-      internalID: 932215104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_46
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 100
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b9b7ea44dd808742b931a8d63c72fa1
-      internalID: 373807398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_47
+      name: School_Mockup_2_44
       rect:
         serializedVersion: 2
         x: 199
@@ -1119,14 +1056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f99b9015d7b3104ba93f9faafb2963b
-      internalID: 1751564965
+      spriteID: 09bd249f6268588418ce14f17156677c
+      internalID: -330392604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_48
+      name: School_Mockup_2_45
       rect:
         serializedVersion: 2
         x: 232
@@ -1140,14 +1077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc8693a1ccd2fa24cb027cce71e6cbbf
-      internalID: 1271095275
+      spriteID: 18468d1382ee29744a1261a2a2e41865
+      internalID: 2033903019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_49
+      name: School_Mockup_2_46
       rect:
         serializedVersion: 2
         x: 265
@@ -1161,14 +1098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e157c18f0d217ce4aa34ab2cd98ca258
-      internalID: -1242870791
+      spriteID: e84bd9df88da6bd43baad33eba0cc042
+      internalID: 2079220026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_50
+      name: School_Mockup_2_47
       rect:
         serializedVersion: 2
         x: 298
@@ -1182,14 +1119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7736ff6b2534804cb5e6b0758fedf64
-      internalID: -1446886050
+      spriteID: 8b73b4bc3b70d574885d6911c97788c9
+      internalID: 122392487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_51
+      name: School_Mockup_2_48
       rect:
         serializedVersion: 2
         x: 331
@@ -1203,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7262dea0219ea1a4aaa230cc6938ecbf
-      internalID: -1057257371
+      spriteID: 9d4e38e3c2d976b47a0e967dcbab750c
+      internalID: -282863178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: School_Mockup_2_52
+      name: School_Mockup_2_49
       rect:
         serializedVersion: 2
         x: 1
@@ -1224,8 +1161,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61efe0cdfd8ebcc4fbf5df12820590b1
-      internalID: 241265506
+      spriteID: 37432df4b923a4e4998068206d0076f8
+      internalID: 1903929687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc577cccf233c24f8fe79b829cda8ab
+      internalID: -59904783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9acd6aec571e4dbba22c95e51ddd1
+      internalID: 480363553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfeae454808bf24abad337a38b1f044
+      internalID: -997774872
       vertices: []
       indices: 
       edges: []
@@ -1235,7 +1235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 67
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1245,8 +1245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f39a12dd1c138449a8776edcc3d01c
-      internalID: -853309001
+      spriteID: 9e60a55b2fd241245a39fbdf966a2f2e
+      internalID: 2000947887
       vertices: []
       indices: 
       edges: []
@@ -1255,8 +1255,8 @@ TextureImporter:
       name: School_Mockup_2_54
       rect:
         serializedVersion: 2
-        x: 67
-        y: 67
+        x: 133
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1266,8 +1266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75d13523b65b54b4eac62f02ab1b34a2
-      internalID: 1987046124
+      spriteID: d8f7aaf94d10f514dbd12d7e3c13aea1
+      internalID: -948852009
       vertices: []
       indices: 
       edges: []
@@ -1276,8 +1276,8 @@ TextureImporter:
       name: School_Mockup_2_55
       rect:
         serializedVersion: 2
-        x: 100
-        y: 67
+        x: 166
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1287,8 +1287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 388542b7a6c390445a027d0b0e28b0ef
-      internalID: 78806204
+      spriteID: e688279cc5b2f71469e6f18290f49650
+      internalID: 495368141
       vertices: []
       indices: 
       edges: []
@@ -1297,8 +1297,8 @@ TextureImporter:
       name: School_Mockup_2_56
       rect:
         serializedVersion: 2
-        x: 133
-        y: 67
+        x: 199
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1308,8 +1308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55516a0688e20ca4ba81b75c0caa06e6
-      internalID: 275417878
+      spriteID: 978709da655b54742bb2c395367dc177
+      internalID: -1602383166
       vertices: []
       indices: 
       edges: []
@@ -1318,8 +1318,8 @@ TextureImporter:
       name: School_Mockup_2_57
       rect:
         serializedVersion: 2
-        x: 166
-        y: 67
+        x: 232
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1329,8 +1329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 456d2c7cfd2d97f41a5ebc7b85c2fc50
-      internalID: 1579331774
+      spriteID: f4ea0451a612b38468d3fe2a5aca91cc
+      internalID: -2055337326
       vertices: []
       indices: 
       edges: []
@@ -1339,8 +1339,8 @@ TextureImporter:
       name: School_Mockup_2_58
       rect:
         serializedVersion: 2
-        x: 199
-        y: 67
+        x: 265
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1350,8 +1350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d40d2f9f28a9f54ea9611f6092de0ac
-      internalID: -1552933655
+      spriteID: e68e85ef502f9974c9ceb57280662ccf
+      internalID: -1578430745
       vertices: []
       indices: 
       edges: []
@@ -1360,8 +1360,8 @@ TextureImporter:
       name: School_Mockup_2_59
       rect:
         serializedVersion: 2
-        x: 232
-        y: 67
+        x: 298
+        y: 34
         width: 32
         height: 32
       alignment: 0
@@ -1371,8 +1371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de532c3adc2947e48bbbf493b120b8c2
-      internalID: -2099059129
+      spriteID: 06d99e931912aee4189ed9d5d122a790
+      internalID: -623370351
       vertices: []
       indices: 
       edges: []
@@ -1381,8 +1381,8 @@ TextureImporter:
       name: School_Mockup_2_60
       rect:
         serializedVersion: 2
-        x: 265
-        y: 67
+        x: 34
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1392,8 +1392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de5f45505fb4e6e4ba367217aca76863
-      internalID: 514291953
+      spriteID: 40347f65af6fbb041bcb19cec0823c6b
+      internalID: -352696681
       vertices: []
       indices: 
       edges: []
@@ -1402,8 +1402,8 @@ TextureImporter:
       name: School_Mockup_2_61
       rect:
         serializedVersion: 2
-        x: 34
-        y: 34
+        x: 67
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1413,8 +1413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63536fa154cb9334995918a13184198c
-      internalID: 283271549
+      spriteID: bfd77bf614f81894a8fc84d7cf96a3db
+      internalID: -1921566464
       vertices: []
       indices: 
       edges: []
@@ -1423,8 +1423,8 @@ TextureImporter:
       name: School_Mockup_2_62
       rect:
         serializedVersion: 2
-        x: 133
-        y: 34
+        x: 100
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1434,8 +1434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65d8521cdce62a4080f019fa5968804
-      internalID: -21827983
+      spriteID: accbbca8a82ac4a4b9bac66cd87de734
+      internalID: -624857062
       vertices: []
       indices: 
       edges: []
@@ -1444,8 +1444,8 @@ TextureImporter:
       name: School_Mockup_2_63
       rect:
         serializedVersion: 2
-        x: 166
-        y: 34
+        x: 133
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1455,8 +1455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c3586853a32c7c42b0e91c4a39077ab
-      internalID: 1280584884
+      spriteID: 2fd7e1bf131befb4d87ccff44f02c989
+      internalID: -554178178
       vertices: []
       indices: 
       edges: []
@@ -1465,8 +1465,8 @@ TextureImporter:
       name: School_Mockup_2_64
       rect:
         serializedVersion: 2
-        x: 199
-        y: 34
+        x: 166
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1476,8 +1476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6faac59321ac6274383a6ca56f1af38e
-      internalID: 1473645445
+      spriteID: 1cf0e341725790f40b35a1849da083b3
+      internalID: -1302405261
       vertices: []
       indices: 
       edges: []
@@ -1486,8 +1486,8 @@ TextureImporter:
       name: School_Mockup_2_65
       rect:
         serializedVersion: 2
-        x: 232
-        y: 34
+        x: 199
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -1497,8 +1497,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 651ed10f658c7214ca4a78e1d358fab7
-      internalID: 2009777353
+      spriteID: 95ac04ae363a33d499f03ae9a21e13cc
+      internalID: 1729655009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_Mockup_2_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6403a3b802ffcd4a87bec58b46670af
+      internalID: -1189643299
       vertices: []
       indices: 
       edges: []
@@ -1508,90 +1529,6 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 298
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7c957c4974da3e4eafc7bb83aecc20c
-      internalID: 1715738928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_68
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 34
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e7d6449d3c94f449df2043f87f61a1
-      internalID: -1705489141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_69
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b2e310acb30cc6469b3a6acb858a12e
-      internalID: 478550275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_71
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a0b89e3b4c48f84dbbd05848525b9c1
-      internalID: -2089035446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_72
-      rect:
-        serializedVersion: 2
-        x: 34
         y: 1
         width: 32
         height: 32
@@ -1602,197 +1539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1458e355ce022dc44ab4b9859ce9f78c
-      internalID: -794682948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_73
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 982957b49b558ae45b4d2ddc953a0ca8
-      internalID: 1358528268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_74
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 031598162f98c2448b3c802c88b4ddd0
-      internalID: 801794866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_75
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc2872bbc71a7645adcf41382d8e158
-      internalID: -1916994266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_76
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ab24217256202740ade5e8d152e10c4
-      internalID: 1821157088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_77
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad628f6dc3c20b40888367f899fd506
-      internalID: 617511700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_78
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ceab58ce1e57799458bc9766787ee5ab
-      internalID: -1035245877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_80
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc7b1c0f115833e48b635f1ef468b12f
-      internalID: -1724630702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_81
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfbc26af81b21d246ac4e52ab00b9e62
-      internalID: 1586064818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: School_Mockup_2_82
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 1
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89ae2a1f1860b6042bcd200721c13aa2
-      internalID: -2101440391
+      spriteID: bf71286a36006a24da23f0fa8ec20eec
+      internalID: -2099482267
       vertices: []
       indices: 
       edges: []
@@ -1808,89 +1556,74 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      School_Mockup_2_21: -1956002792
-      School_Mockup_2_23: -767274411
-      School_Mockup_2_24: -698486298
-      School_Mockup_2_25: 1926569681
-      School_Mockup_2_39: -460620280
-      School_Mockup_2_6: -624066578
-      School_Mockup_2_53: -853309001
-      School_Mockup_2_78: -1035245877
-      School_Mockup_2_68: -1705489141
-      School_Mockup_2_74: 801794866
-      School_Mockup_2_73: 1358528268
-      School_Mockup_2_62: -21827983
-      School_Mockup_2_35: 1338808335
-      School_Mockup_2_55: 78806204
-      School_Mockup_2_79: 1039418622
-      School_Mockup_2_33: -760781057
-      School_Mockup_2_65: 2009777353
-      School_Mockup_2_11: -491573025
-      School_Mockup_2_41: -1840511811
-      School_Mockup_2_37: -1625268157
-      School_Mockup_2_26: 561791804
-      School_Mockup_2_49: -1242870791
-      School_Mockup_2_64: 1473645445
-      School_Mockup_2_17: -8363653
-      School_Mockup_2_36: -194914063
-      School_Mockup_2_43: -1533703715
-      School_Mockup_2_45: 932215104
-      School_Mockup_2_67: 1715738928
-      School_Mockup_2_51: -1057257371
-      School_Mockup_2_47: 1751564965
-      School_Mockup_2_69: 478550275
-      School_Mockup_2_9: -1604338848
-      School_Mockup_2_82: -2101440391
-      School_Mockup_2_5: -1215436208
-      School_Mockup_2_54: 1987046124
-      School_Mockup_2_44: 576670992
-      School_Mockup_2_56: 275417878
-      School_Mockup_2_7: -427338989
-      School_Mockup_2_18: 1113304831
-      School_Mockup_2_72: -794682948
-      School_Mockup_2_12: -255051693
-      School_Mockup_2_63: 1280584884
-      School_Mockup_2_42: -1003204719
-      School_Mockup_2_71: -2089035446
-      School_Mockup_2_60: 514291953
-      School_Mockup_2_66: 688168115
-      School_Mockup_2_1: 51164744
-      School_Mockup_2_15: 238882978
-      School_Mockup_2_38: 987545021
-      School_Mockup_2_31: -262623345
-      School_Mockup_2_57: 1579331774
-      School_Mockup_2_29: -1498964351
-      School_Mockup_2_32: 788713926
-      School_Mockup_2_0: 287442869
-      School_Mockup_2_40: -1565254260
-      School_Mockup_2_22: 739787708
-      School_Mockup_2_58: -1552933655
-      School_Mockup_2_8: -1899641711
-      School_Mockup_2_27: -1192415721
-      School_Mockup_2_70: -626520332
-      School_Mockup_2_80: -1724630702
-      School_Mockup_2_59: -2099059129
-      School_Mockup_2_77: 617511700
-      School_Mockup_2_48: 1271095275
-      School_Mockup_2_13: 1977288760
-      School_Mockup_2_10: -855858657
-      School_Mockup_2_34: 1666126937
-      School_Mockup_2_30: 513753812
-      School_Mockup_2_46: 373807398
-      School_Mockup_2_61: 283271549
-      School_Mockup_2_50: -1446886050
-      School_Mockup_2_16: 1662539409
-      School_Mockup_2_28: -850273177
-      School_Mockup_2_75: -1916994266
-      School_Mockup_2_19: 832532078
-      School_Mockup_2_2: -516243102
-      School_Mockup_2_3: 719988689
-      School_Mockup_2_4: -1008438139
-      School_Mockup_2_20: -1336877034
-      School_Mockup_2_81: 1586064818
-      School_Mockup_2_52: 241265506
-      School_Mockup_2_14: -1765583666
-      School_Mockup_2_76: 1821157088
+      School_Mockup_2_21: -2126432156
+      School_Mockup_2_23: -1922720903
+      School_Mockup_2_24: 912367942
+      School_Mockup_2_25: -677695760
+      School_Mockup_2_39: -625800629
+      School_Mockup_2_6: -303537997
+      School_Mockup_2_53: 2000947887
+      School_Mockup_2_62: -624857062
+      School_Mockup_2_35: 1642892039
+      School_Mockup_2_55: 495368141
+      School_Mockup_2_33: -915691936
+      School_Mockup_2_65: 1729655009
+      School_Mockup_2_11: -1395624838
+      School_Mockup_2_41: 1063663613
+      School_Mockup_2_37: 974186485
+      School_Mockup_2_26: -1090058084
+      School_Mockup_2_49: 1903929687
+      School_Mockup_2_64: -1302405261
+      School_Mockup_2_17: -1926991158
+      School_Mockup_2_36: -130503374
+      School_Mockup_2_43: -201883486
+      School_Mockup_2_45: 2033903019
+      School_Mockup_2_67: -2099482267
+      School_Mockup_2_51: 480363553
+      School_Mockup_2_47: 122392487
+      School_Mockup_2_9: -1666062930
+      School_Mockup_2_5: -1462351019
+      School_Mockup_2_54: -948852009
+      School_Mockup_2_44: -330392604
+      School_Mockup_2_56: -1602383166
+      School_Mockup_2_7: 1690630504
+      School_Mockup_2_18: -1579620277
+      School_Mockup_2_12: -624599997
+      School_Mockup_2_63: -554178178
+      School_Mockup_2_42: 141918748
+      School_Mockup_2_60: -352696681
+      School_Mockup_2_66: -1189643299
+      School_Mockup_2_1: -1640903494
+      School_Mockup_2_15: 175223579
+      School_Mockup_2_38: 1534075638
+      School_Mockup_2_31: 1759958227
+      School_Mockup_2_57: -2055337326
+      School_Mockup_2_29: 170397774
+      School_Mockup_2_32: 174558086
+      School_Mockup_2_0: -1305282063
+      School_Mockup_2_40: 1922250593
+      School_Mockup_2_22: 1324216614
+      School_Mockup_2_58: -1578430745
+      School_Mockup_2_8: -1089128942
+      School_Mockup_2_27: -732130143
+      School_Mockup_2_59: -623370351
+      School_Mockup_2_13: -1817008068
+      School_Mockup_2_48: -282863178
+      School_Mockup_2_34: -1702254981
+      School_Mockup_2_10: 1532982849
+      School_Mockup_2_61: -1921566464
+      School_Mockup_2_30: -1488756576
+      School_Mockup_2_46: 2079220026
+      School_Mockup_2_50: -59904783
+      School_Mockup_2_16: 397254815
+      School_Mockup_2_28: -1269151900
+      School_Mockup_2_19: 1233913624
+      School_Mockup_2_2: -1886024571
+      School_Mockup_2_3: 1499574581
+      School_Mockup_2_4: 1756493975
+      School_Mockup_2_20: 690100449
+      School_Mockup_2_52: -997774872
+      School_Mockup_2_14: -581747387
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
