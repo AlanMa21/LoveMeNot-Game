@@ -2897,6 +2897,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4582194447022734663, guid: 47d5dc133c71bc449a434a4f0ed1a066, type: 3}
+      propertyPath: disableDataPersistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582194447022734663, guid: 47d5dc133c71bc449a434a4f0ed1a066, type: 3}
       propertyPath: overriderSelectedProfileId
       value: 0
       objectReference: {fileID: 0}
