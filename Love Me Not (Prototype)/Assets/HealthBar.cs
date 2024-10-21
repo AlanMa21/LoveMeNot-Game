@@ -32,7 +32,7 @@ public class HealthBar : MonoBehaviour, IDataPersistance
        SetSlider(data.playerPoints);
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(GameData data)
     {
         data.playerPoints = this.healthSlider.value;
         Debug.Log(data.playerPoints);

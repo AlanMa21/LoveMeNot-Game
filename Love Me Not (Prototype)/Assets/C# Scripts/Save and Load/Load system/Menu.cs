@@ -3,22 +3,27 @@ using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEditor.PackageManager;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
    [Header("First Selected Button")]
-   [SerializeField] private GameObject firstSelected;
+   [SerializeField] private Button firstSelected;
 
    protected virtual void OnEnable()
    {
-      StartCoroutine(SetFirstSelected(firstSelected));
+      SetFirstSelected(firstSelected);
    }
 
-   public IEnumerator SetFirstSelected(GameObject firstSelectedObject)
+  /* public IEnumerator SetFirstSelected(GameObject firstSelectedObject)
    {
        EventSystem.current.SetSelectedGameObject(null);
        yield return new WaitForEndOfFrame();
        EventSystem.current.SetSelectedGameObject(firstSelectedObject);
+   }*/
+
+   public void SetFirstSelected(Button firstSelectedButton)
+   {
+      firstSelectedButton.Select();
    }
 }

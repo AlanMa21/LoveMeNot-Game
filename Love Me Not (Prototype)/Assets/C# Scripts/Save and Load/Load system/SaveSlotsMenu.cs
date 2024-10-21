@@ -42,10 +42,19 @@ public class SaveSlotsMenu : Menu
       DataPersistanceManager.instance.NewGame();
 
       }
+
+      // save the game anytime before loading a new scene
+      DataPersistanceManager.instance.SaveGame();
       
        // Load the scene - which will in turn save the game because of OnSceneUnloaded() in the DataPersistanceManager
       SceneManager.LoadSceneAsync(3);
       
+   }
+
+   public void OnClearClicked(SaveSlot saveSlot)
+   {
+      DataPersistanceManager.instance.DeleteProfileData(saveSlot.GetProfileId());
+      ActivateMenu(isLoadingGame);
    }
 
    public void ActivateMenu(bool isLoadingGame)
@@ -82,7 +91,8 @@ public class SaveSlotsMenu : Menu
       }
 
       //set the first selected button
-      StartCoroutine(this.SetFirstSelected(firstSelected));
+      Button firstSelectedButton = firstSelected.GetComponent<Button>();
+      this.SetFirstSelected(firstSelectedButton);
    }
    
    public void DeactivateMenu()

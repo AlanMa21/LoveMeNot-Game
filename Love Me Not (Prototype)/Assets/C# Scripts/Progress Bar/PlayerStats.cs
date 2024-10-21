@@ -24,7 +24,7 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
        Debug.Log(data.playerPoints);
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(GameData data)
     {
        data.playerPoints = this.currentHealth;
        data.playerPoints = 10;

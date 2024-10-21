@@ -17,7 +17,12 @@ public class MainMenu : Menu
     
     private void Start()
     {
-        if(!DataPersistanceManager.instance.HasGameData())
+        DisableMenuButtonDependingOnData();
+    }
+
+    private void DisableMenuButtonDependingOnData()
+    {
+         if(!DataPersistanceManager.instance.HasGameData())
         {
             continueGameButton.interactable = false;
             loadGameButtion.interactable = false;
@@ -49,6 +54,8 @@ public class MainMenu : Menu
     public void OnContinueGameClicked(int sceneLoaded)
     {
         DisableMenuButtons();
+        // save the game anytime before loading a new scene
+        DataPersistanceManager.instance.SaveGame();
         Debug.Log("Continue Game");
         // Load the next scene - which will in turn load the game because of OnSceneLoaded() in the DataPersistanceManager
         SceneManager.LoadSceneAsync(sceneLoaded);
@@ -64,6 +71,7 @@ public class MainMenu : Menu
     public void ActivateMenu()
     {
        this.gameObject.SetActive(true);
+       DisableMenuButtonDependingOnData();
     }
 
     public void DeactivateMenu()
