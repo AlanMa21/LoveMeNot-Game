@@ -5,15 +5,17 @@
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
 
-<color=\#ffffffff>School...
-The last place you want to be right now.
+<color=\#ffffffff>You look different, that Fairy did say you'd change in the morning.
+Guess some powers only work after some time.
+But that doesn't matter... What matters is where you are.
+School... The last place you want to be right now.
 But it's also the place you need to be.
 With a sigh, you get ready to take your next steps.
 But then, a familiar figure appears. Directly in front of you.
 
 ~ toggleFairy()
 
-<color=\#2f6ad0>Pathetic Human! I see you made it to school on time.
+<color=\#2f6ad0>Pathetic Human! I see you made it to school on time, and quite handsome you are!
 
 <color=\#ffffffff>Great, her.
 
@@ -30,7 +32,7 @@ What an odd way to refer to it.
 <color=\#ffffffff>Your teeth grit, not liking the idea of being forced into partnership.
 <color=\#ffffffff>Not liking ANY of this.
 
-<color=\#2f6ad0>Oh come now, no need to be so excited.
+<color=\#2f6ad0>Oh come now, no need to be so excited!
 <color=\#2f6ad0>You will know and meet the one today.
 <color=\#2f6ad0>Your school life just got a lot more fun. You're welcome.
 

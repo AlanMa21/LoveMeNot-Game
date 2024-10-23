@@ -4,15 +4,9 @@
 
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
-EXTERNAL IncreasePoints(bool zero, bool one, bool two, bool three)
-EXTERNAL HasPoints()
-EXTERNAL TurnOffPoints()
 
 <color=\#ffffffff>Your bed, after a long, busy day, calls to you.
 Is it time to go to sleep?
-
-~HasPoints()
-~IncreasePoints(true, false, false, false)
 
 + [<color=\#2b252c>Yes] -> YesBed
 + [<color=\#2b252c>No] -> NoBed
@@ -23,11 +17,9 @@ Is it time to go to sleep?
 Sleep can wait a moment longer.
 -> END
 
-
 === YesBed ===
 
 <color=\#ffffffff>Falling onto the soft mattress, a sigh escapes your lips.
-~TurnOffPoints()
 You're too tired to even sleep on a bed properly.
 As your eyes close shut, you think about the day you had.
 Your body is sore, the scent of dough on your skin, and the creak of the mattress under you.
@@ -190,8 +182,7 @@ Her tone pitching, disgust evident within.
 <color=\#2f6ad0>So much easier.
 
 <color=\#ffffffff>You notice something sinister about her.
-She is planning something.
-Something you won't like.
+She is planning something. Something you won't like.
 
 <color=\#2f6ad0>You, pathetic human, are a problem.
 <color=\#2f6ad0>A problem that I plan to fix.
@@ -205,33 +196,28 @@ Something you won't like.
 
 <color=\#ffffffff>For a moment, she appears to be deep in thought.
 The next, a smirk imprinted on her features.
-And with the snap of her fingers, a sparkle of light surrounds me.
+And with the snap of her fingers... Nothing happens?
+You start to smell that horribly old perfume more though until it feels suffocating.
 
 <color=\#2b252c>COUGH COUGH!
 
-<color=\#ffffffff>Bright light, high-pitch noise, and the smell of very strong perfume.
-Oh, it's so gross you might just throw up.
-
-<color=\#ebd38d>URG! COUGH!
-
-<color=\#ffffffff>The light fades, along with the noise and smell.
-You can finally breathe.
+<color=\#ffffffff>You are in the middle of a cough of fits and the strange lady just stands there.
+<color=\#ffffffff>Watching...
+<color=\#ffffffff>Until finally, the smell disappears. You can finally breathe.
 
 <color=\#2f6ad0>Perfect!
 
 <color=\#ffffffff>The woman, sinister she is, smiles with glee at you.
 As you come to your senses, you feel... Strange.
-It's like something has changed.
+It's like something has changed. But you look the same?
 
-<color=\#2f6ad0>There! Handsome as ever, truly a master at my work.
+<color=\#2f6ad0>There! Now in the morning you will look completely different!
 <color=\#2f6ad0>No need to thank me, but I won't stop you if you do.
 
-<color=\#ffffffff>Your hair...
-Your clothes...
-Even your smell...
-That is not a freshly baked goods smell.
-You feel foreign; you appear and feel different.
-You don't feel as attractive as you did before.
+<color=\#ffffffff>You did feel different, but you could see that you weren't.
+<color=\#ffffffff>You smelt different though.
+<color=\#ffffffff>No longer did you smell of sweet bakery goods.
+<color=\#ffffffff>Now you smelt... Boring.
 
 <color=\#2f6ad0>Goodness, you loved yourself too much before.
 <color=\#2f6ad0>Love the new you now; it will be your new life.
@@ -279,21 +265,21 @@ Why did you say that? You didn't mean to say that, right?
 <color=\#2f6ad0>The gift of being unable to refuse.
 
 <color=\#ffffffff>...
-That sounds like sexual as-
+<color=\#ffffffff>That sounds like sexual as-
 
 <color=\#2f6ad0>As an outlier, you will accept the confession of anyone willing to confess to you.
-<color=\#2f6ad0>In other words, you will live the life anyone wants.
+<color=\#2f6ad0>In other words, you will live the life of anyone wants.
 <color=\#2f6ad0>You will find love, have a partner, work together, and help your partner with their future.
 <color=\#2f6ad0>And your future binds with theirs.
 
 <color=\#ffffffff>Your future? Gone. Just like that? For a life with another?
 
 <color=\#2f6ad0> You are still single right now, but you have school tomorrow.
-<color=\#2f6ad0>And at your school is many singles willing to mingle.
+<color=\#2f6ad0>And at your school are many singles willing to mingle.
 
 <color=\#ffffffff>Older people using slang is so weird.
 
-<color=\#2f6ad0>With your attractive appearance and willingness to say yes to them, it will be a piece of cake!
+<color=\#2f6ad0>With your soon attractive appearance and willingness to say yes to them, it will be a piece of cake!
 <color=\#2f6ad0>No longer will you be a pain in my behind.
 
 <color=\#ffffffff>...
@@ -301,7 +287,7 @@ That sounds like sexual as-
 <color=\#2f6ad0>And while we are at it, what was your name again?
 
 <color=\#ffffffff>Silence. You weren't sure telling the person who cursed you your name would be a good idea.
-But it doesn't matter; she has an expression of satisfaction.
+<color=\#ffffffff>But it doesn't matter; she has an expression of satisfaction.
 
 <color=\#2f6ad0>Bread.
 

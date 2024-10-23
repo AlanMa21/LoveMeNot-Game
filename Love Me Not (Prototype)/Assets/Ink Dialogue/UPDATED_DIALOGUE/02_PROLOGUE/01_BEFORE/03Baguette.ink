@@ -13,7 +13,7 @@ Shall you pet Baguette?
 
 === PetBaguette ===
 
-<color=\#ffffffff>You lower your hand to your pet's crust, a soft crumble
+<color=\#ffffffff>You lower your hand to your pet's crust, a soft crumble.
 Its long body is firm under the added pressure.
 Baguette's eyes wiggle to the new movement, ever the curious things they are.
 You take your hand away from your only companion, satisfied.

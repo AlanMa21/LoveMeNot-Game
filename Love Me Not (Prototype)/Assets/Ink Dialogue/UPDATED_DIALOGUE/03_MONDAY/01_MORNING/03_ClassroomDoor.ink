@@ -1,7 +1,6 @@
 -> ClassroomDoorMonday
 
 EXTERNAL loadNextLevel(buildIndex)
-EXTERNAL toggleBarrier()
 
 === ClassroomDoorMonday ===
 
@@ -17,7 +16,7 @@ EXTERNAL toggleBarrier()
 === ClassroomEnter ===
 <color=\#ffffffff>It's now or never.
 <color=\#ffffffff>Go towards the door.
-~ toggleBarrier()
+~loadNextLevel(6)
 -> END
 
 === ClassroomWait ===

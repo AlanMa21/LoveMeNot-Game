@@ -1,4 +1,5 @@
 -> 06BedReturn
+EXTERNAL loadNextLevel(buildIndex)
 
 === 06BedReturn ===
 
@@ -6,8 +7,5 @@
 Not wanting to repeat previous actions as if she would reappear again.
 That woman 
 
--> EndPrologue
-
-=== EndPrologue ===
-//PROLOGUE END - TRANSITION TO BLACK
+~loadNextLevel(5)
 -> END
