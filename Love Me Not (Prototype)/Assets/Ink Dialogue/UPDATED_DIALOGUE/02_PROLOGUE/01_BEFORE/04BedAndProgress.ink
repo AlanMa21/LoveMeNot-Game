@@ -4,9 +4,14 @@
 
 EXTERNAL loadNextLevel(buildIndex)
 EXTERNAL toggleFairy()
+EXTERNAL IncreasePoints(bool zero, bool one, bool two, bool three)
+EXTERNAL HasPoints()
+EXTERNAL TurnOffPoints()
 
 <color=\#ffffffff>Your bed, after a long, busy day, calls to you.
-Is it time to go to sleep?
+Is it time to go to sleep
+//~HasPoints()
+//~IncreasePoints(true, false, false, false)
 
 + [<color=\#2b252c>Yes] -> YesBed
 + [<color=\#2b252c>No] -> NoBed
@@ -14,12 +19,14 @@ Is it time to go to sleep?
 === NoBed ===
 
 <color=\#ffffffff>Hmm, not yet.
+//~TurnOffPoints()
 Sleep can wait a moment longer.
 -> END
 
 === YesBed ===
 
 <color=\#ffffffff>Falling onto the soft mattress, a sigh escapes your lips.
+//~TurnOffPoints()
 You're too tired to even sleep on a bed properly.
 As your eyes close shut, you think about the day you had.
 Your body is sore, the scent of dough on your skin, and the creak of the mattress under you.
@@ -36,7 +43,7 @@ Then you hear it again.
 
 <color=\#2f6ad0>Ignoring me? How dare you ignore me!
 
-~ toggleFairy()
+//~ toggleFairy()
 
 <color=\#ffffffff>Your eyes shot open, the voice far too clear to be part of your imagination.
 It doesn't help that a stranger stands before you at the end of your bed.
@@ -79,7 +86,7 @@ Do you dare ask a question?
 
 <color=\#ffffffff>Who is this woman, you wonder.
 As if she can read your mind, she smirks, speaking up.
-
+//~TurnOffPoints()
 <color=\#2f6ad0>You want to know who I am?
 
 <color=\#ffffffff>How did she know that?
@@ -100,6 +107,7 @@ Her face deflates as if taking your thoughts to offence.
 === WhatQuestion ===
 
 <color=\#ffffffff>Your eyes trail behind her, specifically to what is attached to her back.
+//~TurnOffPoints()
 A pair of see-through wings shimmer in the moonlight that came through the window.
 They sparkled. They looked real even.
 
@@ -138,6 +146,7 @@ She looks annoyed, and you haven't even said anything.
 === HowQuestion ===
 
 <color=\#ffffffff>You look around your room.
+//~TurnOffPoints()
 Your window is locked and still firm.
 Your front door is closed; frankly, you would know if it was barged in.
 Your bathroom door has a loud squeak to it. If they were hiding in there, you would have heard.
@@ -166,6 +175,7 @@ It seems she isn't a very happy type.
 === BedProgress1 ===
 
 <color=\#ffffffff>You stay silent; you either go in this knowing more or nothing.
+//~TurnOffPoints()
 What you do know is that this random woman with wings stands before you in your room.
 Who is she? What is she? How did she get here?
 It doesn't really matter.
@@ -245,6 +255,7 @@ But you could do just that if she demands you to speak up.
 === CurseResponse ===
 
 <color=\#ebd38d>I love it.
+//~TurnOffPoints()
 
 <color=\#ffffffff>...
 . . .
@@ -308,7 +319,7 @@ Your name.
 
 <color=\#2f6ad0>Ta Ta~
 
-~ toggleFairy()
+//~ toggleFairy()
 
 <color=\#ffffffff>And just like that, the strange woman with wings vanishes.
 For a moment, you wonder if what you saw was real.

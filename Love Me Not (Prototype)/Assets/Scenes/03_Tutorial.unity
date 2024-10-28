@@ -20425,7 +20425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 1558749647}
-  inkJSON: {fileID: 4900000, guid: 0802adf7542e1284abbfcffcab67d988, type: 3}
+  inkJSON: {fileID: 4900000, guid: 425f1920252504741b9a3e3f91e2ae9b, type: 3}
   deniedInkJSON: {fileID: 0}
   interactionCount: 0
   isPassiveDialogue: 0
