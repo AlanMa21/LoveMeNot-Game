@@ -3,6 +3,7 @@ EXTERNAL loadNextLevel(buildIndex)
 
 EXTERNAL IncreasePoints(bool zero, bool one, bool two, bool three)
 EXTERNAL HasPoints()
+EXTERNAL TurnOffPoints()
 
 === CherryRecess ===
 <color=\#de4065>Oh, hi Kazu- I mean, Bread!
@@ -20,13 +21,17 @@ EXTERNAL HasPoints()
 <color=\#de4065>Wow we have so much in common! I was afraid that you wouldn't...
 <color=\#de4065>Ahem! Bread, would you like to read Manga with me?
 <color=\#ffffffff>Now? In the middle of your mission? You can't agree to this.
-<color=\#ffffffff>But... You already know it's futile.
-<color=\#ebd38d>Sure.
+<color=\#ffffffff>But... Maybe it's possible.
 
-EXTERNAL TurnOffPoints()
 ~HasPoints()
 ~IncreasePoints(true, true, false, false)
 
++ [<color=\#ebd38d>No] -> SameResponse
++ [<color=\#ebd38d>Get away from me] -> SameResponse
++ [<color=\#ebd38d>Get away from me] -> SameResponse
+
+=== SameResponse ===
+<color=\#ebd38d>Sure.
 <color=\#de4065>Really? Hah! O-Okay! Come, we don't have much more time before the end of Recess!
 <color=\#ffffffff>You failed your mission, but it's not too late.
 <color=\#ffffffff>For the rest of the class, you and Cherry sit at her desk.
