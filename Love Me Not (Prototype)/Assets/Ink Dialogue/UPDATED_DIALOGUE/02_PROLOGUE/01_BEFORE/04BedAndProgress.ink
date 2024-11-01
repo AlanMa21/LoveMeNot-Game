@@ -43,7 +43,7 @@ Then you hear it again.
 
 <color=\#2f6ad0>Ignoring me? How dare you ignore me!
 
-//~ toggleFairy()
+~ toggleFairy()
 
 <color=\#ffffffff>Your eyes shot open, the voice far too clear to be part of your imagination.
 It doesn't help that a stranger stands before you at the end of your bed.
@@ -319,7 +319,7 @@ Your name.
 
 <color=\#2f6ad0>Ta Ta~
 
-//~ toggleFairy()
+~ toggleFairy()
 
 <color=\#ffffffff>And just like that, the strange woman with wings vanishes.
 For a moment, you wonder if what you saw was real.
