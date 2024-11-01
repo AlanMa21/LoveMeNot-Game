@@ -26,7 +26,7 @@ public class GameData
    {
       this.playerPoints = 0f;
       playerPosition = Vector2.zero;
-      //this.healthSlider.value = playerPoints;
+      //this.healthSlider.value = ;
       
 
    }
