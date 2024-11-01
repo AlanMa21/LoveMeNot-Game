@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Ink.Runtime;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 [System.Serializable]
@@ -12,6 +14,8 @@ public class GameData
 
   public Vector2 playerPosition;
 
+  public Slider healthSlider;
+
   
 
   
@@ -22,6 +26,7 @@ public class GameData
    {
       this.playerPoints = 0f;
       playerPosition = Vector2.zero;
+      //this.healthSlider.value = playerPoints;
       
 
    }

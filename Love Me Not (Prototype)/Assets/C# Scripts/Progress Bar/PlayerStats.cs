@@ -69,10 +69,18 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
          if(currentHealth == maxHealth)
          {
             Debug.Log("Well Done, you're in Love Owo");
-         }
-
-         
-
-         
+         }  
      }
+
+     private void StopTakingDamage()
+     {
+       if(currentHealth ==  minHealth)
+       {
+         // Find a find a function to deactive point gain if the current points is 0
+       }
+     }
+
+   
+
+    
 }
