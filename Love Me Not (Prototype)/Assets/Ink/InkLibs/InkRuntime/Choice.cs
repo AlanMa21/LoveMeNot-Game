@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 namespace Ink.Runtime
 {
     /// <summary>
@@ -52,11 +51,6 @@ namespace Ink.Runtime
         public Choice()
         {
         }
-
-        public static T GetComponentInChildren<T>()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 }
 
