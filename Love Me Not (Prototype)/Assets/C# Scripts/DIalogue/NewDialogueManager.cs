@@ -115,7 +115,7 @@ public class NewDialogueManager : MonoBehaviour
         {
             wasTriggered = true;
         }
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         if (externalFunctions!=null)
         {
             externalFunctions.Bind(currentStory);

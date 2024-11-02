@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1028753767}
   - component: {fileID: 8110808694420335727}
   - component: {fileID: 1012136890518969338}
+  - component: {fileID: 180083912}
   m_Layer: 0
   m_Name: Bread
   m_TagString: Player
@@ -38,7 +39,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1090750641921771798
 SpriteRenderer:
@@ -80,8 +81,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -1855553335, guid: f8808d24ebe5bf14bb887ace29984afe, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -70561364, guid: fe49eee4d0e677444b8e4c03984045d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,18 +106,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010391891, y: -0.379336}
+  m_Offset: {x: -0.020347789, y: -0.38662326}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.609375, y: 0.9375}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.609375, y: 0.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.59898627, y: 0.17000002}
+  m_Size: {x: 0.29736325, y: 0.1642535}
   m_EdgeRadius: 0
 --- !u!50 &1090750641921771796
 Rigidbody2D:
@@ -250,6 +251,18 @@ MonoBehaviour:
   minHealth: 0
   healthBar: {fileID: 0}
 --- !u!114 &1012136890518969338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090750641921771799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e160bc6e56596648b9c365f7cf7c084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &180083912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

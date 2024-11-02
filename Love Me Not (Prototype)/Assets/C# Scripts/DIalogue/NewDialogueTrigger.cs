@@ -39,7 +39,7 @@ public class NewDialogueTrigger : MonoBehaviour
         {
             visualCue.SetActive(false);
         }
-
+        
         interactionCount = 0;
 
         if (isPassiveDialogue)
@@ -156,8 +156,21 @@ public class NewDialogueTrigger : MonoBehaviour
             {
                 dM = dM_Backup;
             }
-
-            dM.EnterDialogueMode(inkJSON, false);
+            if(deniedInkJSON != null)
+            {
+                if(interactionCount < 2)
+                {
+                    dM.EnterDialogueMode(inkJSON, false);
+                }
+                else 
+                {
+                    dM.EnterDialogueMode(deniedInkJSON, false);
+                }
+            }
+            else
+            {
+                dM.EnterDialogueMode(inkJSON, false);
+            }
         }
         
     }
