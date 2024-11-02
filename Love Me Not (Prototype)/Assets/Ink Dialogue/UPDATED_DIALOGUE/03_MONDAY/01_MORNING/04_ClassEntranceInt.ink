@@ -40,10 +40,13 @@ EXTERNAL TurnOffPoints()
 ~IncreasePoints(true, false, false, false)
 
 + [<color=\#ebd38d>Oh No] -> SameResponse
+
 + [<color=\#ebd38d>Love?] -> SameResponse
 
 === SameResponse ===
-<color=\#faf18a>Jeez, I haven't seen Cherry so stunned since I last drew her favourite manga boy.
+<color=\#faf18a>Jeez, I haven't seen Cherry so stunned since 
+last drew her favourite manga boy.
+~TurnOffPoints()
 <color=\#a35d0d>Me? Aww how kind.
 <color=\#de4065>Ew, gross.
 <color=\#a35d0d>HUH?!

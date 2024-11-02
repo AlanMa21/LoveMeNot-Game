@@ -22,14 +22,15 @@ public class DataPersistanceManager : MonoBehaviour
    [Header("Auto Saving Configuration")]
    [SerializeField] private float autoSaveTimeSeconds = 60f;
 
-   private GameData gameData;
-   private List<IDataPersistance> dataPersistanceObjects;
+   public GameData gameData;
+   public List<IDataPersistance> dataPersistanceObjects = new List<IDataPersistance>();
 
    private FileDataHandler dataHandler;
 
    private string selectedProfileID = "";
 
    private Coroutine autoSaveCoroutine;
+   public HealthBar healthBar;
 
    private void Awake()
    {
@@ -47,7 +48,12 @@ public class DataPersistanceManager : MonoBehaviour
       {
          Debug.LogWarning("DataPersistance is currently disabled!");
       }
-
+      var temp = FindObjectsOfType<MonoBehaviour>().OfType<IDataPersistance>();
+      foreach(IDataPersistance a in temp)
+      {
+         dataPersistanceObjects.Add(a);
+      }
+      Debug.Log(dataPersistanceObjects.Count);
       this.dataHandler = new FileDataHandler(Application.streamingAssetsPath, fileName);
    
       /*this.selectedProfileID = dataHandler.GetMostRecentlyUpdatedProfileId();
@@ -77,9 +83,15 @@ public class DataPersistanceManager : MonoBehaviour
    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
    {
       Debug.Log("OnSceneLoaded");
-      this.dataPersistanceObjects = FindAllDataPersistanceObjects();
+      dataPersistanceObjects.Clear();
+      var temp = FindObjectsOfType<MonoBehaviour>().OfType<IDataPersistance>();
+      foreach(IDataPersistance a in temp)
+      {
+         dataPersistanceObjects.Add(a);
+      }
+      Debug.Log(dataPersistanceObjects.Count + SceneManager.GetActiveScene().name);
+      //this.dataPersistanceObjects = FindAllDataPersistanceObjects();
       LoadGame();
-
       // start up the auto saving coroutine 
       if ( autoSaveCoroutine != null)
       {
@@ -137,7 +149,7 @@ public class DataPersistanceManager : MonoBehaviour
       }
 
       //Load any saved data from a file using the data handler
-      this.gameData = dataHandler.Load(selectedProfileID);
+      //this.gameData = dataHandler.Load(selectedProfileID);
 
       //if no data can be loaded, initialize to new game
       if(this.gameData == null)
@@ -174,8 +186,10 @@ public class DataPersistanceManager : MonoBehaviour
          Debug.LogWarning("No data was found. A New game need to be started before data can be saved.");
       }
       // pass the data to other scripts so they can update it
+      Debug.Log(dataPersistanceObjects.Count);
       for(int i = 0; i < dataPersistanceObjects.Count; i++)
       {
+         
          if(dataPersistanceObjects[i] != null)
          {
             dataPersistanceObjects[i].SaveData( gameData);

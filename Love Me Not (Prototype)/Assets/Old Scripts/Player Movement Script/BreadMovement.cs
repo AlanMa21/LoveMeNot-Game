@@ -32,7 +32,7 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
 
    public void LoadData(GameData data)
    {
-      this.transform.position = data.playerPosition;
+      this.transform.position = DataPersistanceManager.instance.gameData.playerPosition;
    }
 
    public void SaveData( GameData data)
@@ -42,7 +42,7 @@ public class BreadMovement : MonoBehaviour, IDataPersistance
         {
             data.playerPosition = this.transform.position;
         }*/
-         data.playerPosition = this.transform.position;
+         DataPersistanceManager.instance.gameData.playerPosition = this.transform.position;
        
    }
 

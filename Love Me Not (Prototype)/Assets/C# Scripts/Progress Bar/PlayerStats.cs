@@ -20,13 +20,21 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
 
     public void LoadData(GameData data)
     {
-       this.currentHealth = data.playerPoints;
+       this.currentHealth = DataPersistanceManager.instance.gameData.healthSlider;
+       if(healthBar != null)
+       {
+         if(healthBar != DataPersistanceManager.instance.healthBar)
+          {
+            healthBar = DataPersistanceManager.instance.healthBar;
+         }
+       }
+       
        Debug.Log(data.playerPoints);
     }
 
     public void SaveData(GameData data)
     {
-       data.playerPoints = this.currentHealth;
+       DataPersistanceManager.instance.gameData.healthSlider = this.currentHealth;
        data.playerPoints = 10;
     } 
 
@@ -35,22 +43,36 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
      private void Start()
      {
         //currentHealth = minHealth;
-
-        healthBar.SetSliderMax(maxHealth);
+        if(healthBar != null)
+        {
+         healthBar.SetSliderMax(maxHealth);
         healthBar.SetSliderMin(minHealth);
+        }
+        
        
      }
 
      public void TakeDamage(float amount)
      {
-        currentHealth -= amount;
-        healthBar.SetSlider(currentHealth);
+      if(currentHealth >= minHealth)
+      {
+         currentHealth -= amount;
+         healthBar.SetSlider(currentHealth);
+         DataPersistanceManager.instance.gameData.healthSlider = currentHealth;
+      }
+        
      }
 
      public void Heal(float amount)
      {
+      if(currentHealth <= maxHealth)
+      {
+         Debug.Log("EEEE");
          currentHealth += amount;
          healthBar.SetSlider(currentHealth);
+         DataPersistanceManager.instance.gameData.healthSlider = currentHealth;
+      }
+         
      }
 
      public void Update()
@@ -76,7 +98,7 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
      {
        if(currentHealth ==  minHealth)
        {
-         // Find a find a function to deactive point gain if the current points is 0
+          
        }
      }
 

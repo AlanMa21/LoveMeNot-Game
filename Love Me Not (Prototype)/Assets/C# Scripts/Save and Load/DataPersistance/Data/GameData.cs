@@ -14,7 +14,7 @@ public class GameData
 
   public Vector2 playerPosition;
 
-  public Slider healthSlider;
+  public float healthSlider;
 
   
 
@@ -24,9 +24,7 @@ public class GameData
   // the game starts with when there's no data to load
    public GameData()
    {
-      this.playerPoints = 0f;
       playerPosition = Vector2.zero;
-      //this.healthSlider.value = ;
       
 
    }

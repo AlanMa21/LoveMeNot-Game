@@ -245,6 +245,7 @@ public class NewDialogueManager : MonoBehaviour
         currentStory.ChooseChoiceIndex(choiceIndex);
         if(choices[choiceIndex].GetComponent<ChoiceDataHolder>().choiceData.pointIncrease)
         {
+            Debug.Log("RRRRRRRRRRR");
             stats.Heal(1f);
         }
     }  
