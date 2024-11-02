@@ -106,12 +106,16 @@ public class NewDialogueManager : MonoBehaviour
             //ContinueStory();
         }
     }
-
-    public void EnterDialogueMode(TextAsset inkJSON )
+    public bool wasTriggered;
+    public void EnterDialogueMode(TextAsset inkJSON, bool Triggered)
     {
         
         currentStory = new Story(inkJSON.text);
-
+        if(Triggered == true)
+        {
+            wasTriggered = true;
+        }
+        Time.timeScale = 0;
         if (externalFunctions!=null)
         {
             externalFunctions.Bind(currentStory);
@@ -127,7 +131,19 @@ public class NewDialogueManager : MonoBehaviour
     private IEnumerator ExitDialogueMode()
     {
         yield return new WaitForSeconds(0.02f);
-
+        if(wasTriggered)
+        {
+            GameObject[] a = GameObject.FindGameObjectsWithTag("Respawn");
+            List<float> distances = new List<float>();
+            foreach(GameObject Object in a)
+            {
+                distances.Add(Vector2.Distance(Object.transform.position, FindObjectOfType<BreadMovement>().transform.position));
+            }
+            float closest = Mathf.Min(distances.ToArray());
+            int closestIndex = distances.IndexOf(closest);
+            a[closestIndex].SetActive(false);
+        }
+        Time.timeScale = 1;
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";

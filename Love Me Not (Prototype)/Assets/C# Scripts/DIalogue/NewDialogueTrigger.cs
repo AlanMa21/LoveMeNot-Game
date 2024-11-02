@@ -157,7 +157,7 @@ public class NewDialogueTrigger : MonoBehaviour
                 dM = dM_Backup;
             }
 
-            dM.EnterDialogueMode(inkJSON);
+            dM.EnterDialogueMode(inkJSON, false);
         }
         
     }
