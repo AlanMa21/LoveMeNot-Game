@@ -141,7 +141,7 @@ public class NewDialogueManager : MonoBehaviour
             }
             float closest = Mathf.Min(distances.ToArray());
             int closestIndex = distances.IndexOf(closest);
-            a[closestIndex].SetActive(false);
+           //a[closestIndex].SetActive(false);
         }
         Time.timeScale = 1;
         dialogueIsPlaying = false;

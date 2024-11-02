@@ -1,9 +1,9 @@
 {
-    "lastUpdated": -8584710467835136132,
-    "playerPoints": 0.0,
+    "lastUpdated": -8584710328191182906,
+    "playerPoints": 10.0,
     "playerPosition": {
-        "x": 0.0,
-        "y": 0.0
+        "x": -5.059999942779541,
+        "y": 1.0700000524520875
     },
-    "healthSlider": 0.0
+    "healthSlider": 3.0
 }

@@ -1,7 +1,9 @@
 {
+    "lastUpdated": -8584710335069756929,
     "playerPoints": 0.0,
     "playerPosition": {
         "x": 0.0,
         "y": 0.0
-    }
+    },
+    "healthSlider": 0.0
 }
