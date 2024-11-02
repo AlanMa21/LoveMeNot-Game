@@ -17663,7 +17663,7 @@ GameObject:
   - component: {fileID: 1687786128}
   - component: {fileID: 1687786127}
   m_Layer: 0
-  m_Name: Lemon_Cookie_1 - temp Ramen
+  m_Name: Ramen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17785,7 +17785,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -697159728, guid: 35dbc1aa19952b444b75a145f4c6e6e1, type: 3}
+  m_Sprite: {fileID: 1925851700, guid: 4a4de520325413e428cc2a67646c6b6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
