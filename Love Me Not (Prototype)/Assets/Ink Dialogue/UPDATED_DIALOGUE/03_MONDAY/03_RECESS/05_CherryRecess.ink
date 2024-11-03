@@ -39,5 +39,5 @@ EXTERNAL TurnOffPoints()
 <color=\#ffffffff>She also allows you to keep the Manga, meaning you still have a chance.
 <color=\#ffffffff>DING DONG!
 
-~loadNextLevel(7)
+~loadNextLevel(9)
 -> END
