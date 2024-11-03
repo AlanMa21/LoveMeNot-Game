@@ -77,15 +77,15 @@ public class PlayerStats : MonoBehaviour, IDataPersistance
 
      public void Update()
      {
-         if(Input.GetKeyDown(KeyCode.K))
+        /* if(Input.GetKeyDown(KeyCode.K))
          {
             TakeDamage(1f);
-         }
+         }*/
 
-         if(Input.GetKeyDown(KeyCode.L))
+        /* if(Input.GetKeyDown(KeyCode.L))
          {
             Heal(1f);
-         }
+         }*/
 
 
          if(currentHealth == maxHealth)
