@@ -94,5 +94,5 @@ EXTERNAL loadNextLevel(buildIndex)
 === Class1ADone ===
 <color=\#C7C7C7>That's all my questions for this lesson, see you tomorrow!
 DING DONG!
-~loadNextLevel(16)
+~loadNextLevel(14)
 -> END
