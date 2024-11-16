@@ -8,7 +8,7 @@ EXTERNAL toggleFairy()
 <color=\#ffffffff>Tech Lead - The one who struggled with the Save and Load system the most! ALAN!
 <color=\#ffffffff>Art Lead - The one behind the amazing assets and creations of the game! ELLIE!
 <color=\#ffffffff>Design and Marketing Lead - The one who wrote this silly mess! FREYA!
-<color=\#ffffffff>Producer and Tech Lead - The one who always came late to class and made an impact! ZHE!
+<color=\#ffffffff>Producer and Test Lead - The one who always came late to class and made an impact! ZHE!
 <color=\#ffffffff>Thank you so much for playing! We hope you like it!
 <color=\#ffffffff>If you haven't already, please fill out our tester sheet.
 
