@@ -7,7 +7,7 @@ EXTERNAL loadNextLevel(buildIndex)
 <color=\#ffffffff>A corner of it looks ready to fall off... It might be possible to pluck it yourself.
 <color=\#ffffffff>If you are careful, you could use the mirror shard to rip the manga book up?
 
-+ [<color=\#ebd38d>Burn it] -> YesDestroy
++ [<color=\#ebd38d>Destroy it] -> YesDestroy
 + [<color=\#ebd38d>Leave it] -> NoDestroy
 
 === YesDestroy ===
