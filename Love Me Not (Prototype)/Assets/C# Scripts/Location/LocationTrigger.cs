@@ -32,6 +32,7 @@ public class LocationTrigger : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
+            
             playerInRange = true;
         }
     }
@@ -43,4 +44,5 @@ public class LocationTrigger : MonoBehaviour
           playerInRange = false;
        }   
     }
+    
 }   
