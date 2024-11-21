@@ -13678,6 +13678,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2935917415610667120, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667120, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
@@ -13686,8 +13690,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2935917415610667120, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -11.892997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667120, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 124.29028
+      value: 184.25839
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667121, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667121, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9843137
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667121, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.61960787
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935917415610667121, guid: bfbf250fe4eba6c468d8328a5687613c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
